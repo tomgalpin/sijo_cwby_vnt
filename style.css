@@ -1,0 +1,224 @@
+/* Stylesheet for Cowboy Ventures website */
+
+/* HTML elements */
+/* *********************************************************************************** */
+
+body {
+
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+img {
+	display: block;
+}
+
+ul {
+	list-style-type: none;
+	margin-top: 10px;
+	position: relative;
+	left: 17%;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	float: left;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	width: 10%;
+	text-align: center;
+}
+
+h1, h2, h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: #D39845;
+}
+
+hr { border-top: 1px solid #ccc; }
+
+/* Classes */
+/* *********************************************************************************** */
+
+.nav {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.nav a { display: block; }
+
+.content {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.centered { text-align: center; }
+
+.padded { padding: 0 16.5%; }
+
+.lineSpacing { line-height: 1.75; }
+
+.banner {
+	width: 100%;
+	background-color: #E4EDED;
+	padding: 25px 0;
+}
+
+.socialIcon {
+	float:left;
+}
+
+/* Three Column Layout */
+.columns, .companyColumns {
+    width:1100px;
+    margin: 0 auto;
+    position: relative;
+    left: 3%;
+}
+
+.columns img {
+	border-radius: 200px;
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
+	height: 150px;
+	width: 150px;
+}
+
+.companyColumns img {
+	height: 50px;
+}
+
+.twoInner {
+	float: left;
+	width: 480px;
+	padding: 10px;
+}
+
+.twoInner img:hover {
+	/*
+	border: 5px solid #4DDBFF;
+	transform: translateY(-5px);
+	-webkit-transform: translateY(-5px);
+	-ms-transform: translateY(-5px);
+	margin-bottom: -5px;
+
+	transition: all linear 0.2s;
+	-webkit-transition: all linear 0.2s;
+	*/
+}
+
+.threeInner {
+	float: left;
+	width: 320px;
+	padding: 10px;	
+}
+
+.fiveInner {
+	float: left;
+	width: 190px;
+	height: 75px;
+	padding: 10px;
+}
+
+.fiveInner2 {
+	float: left;
+	width: 190px;
+	height: 75px;
+	padding: 10px;
+}
+
+.eightInner {
+	float: left;
+	width: 100px;
+	padding: 10px;	
+}
+
+.eightInner img {
+	width: 100px;
+	height: 100px;
+}
+
+.eightInner:hover {
+	transform: translateY(-22px);
+	-webkit-transform: translateY(-22px);
+	-ms-transform: translateY(-22px);
+	color: #3B8686;
+
+	transition: all linear 0.2s;
+	-webkit-transition: all linear 0.2s;
+}
+
+/* Five Column Layout */
+.fiveColumns {
+	width:1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.column {
+	float:left;
+    width:200px;
+    padding: 10px;
+}
+
+.column img { height: 50px; }
+
+.stretch { width: 175px; }
+
+/* IDs */
+/* *********************************************************************************** */
+
+#logo {
+	width: 80px;
+	margin: 0 auto;
+}
+
+#text {
+	width: 300px;
+	margin: 0 auto;
+}
+
+#socialWrapper {
+	position: relative;
+	left: 42%;
+}
+
+#venturePartners {
+	position: relative;
+	left: 5%;
+}
+
+#spacing { height: 550px; }
+
+#librato img { height: 40px; padding-bottom: 10px;}
+
+#philz img { width: 120px; }
+
+#joyride img { width: 150px; height: 40px; }
+
+#tintFeed { position: relative; right: 1%; }
+
+#slides { display: none; }
+
+#nav1 { border-top: 3px #66FFCC solid; }
+
+#nav2 { border-top: 3px #A8DBA8 solid; }
+
+#nav3 { border-top: 3px #79BD9A solid; }
+
+#nav4 { border-top: 3px #3B8686 solid; }
+
+#nav5 { border-top: 3px #0B486B solid; }
+
+#nav6 { border-top: 3px #CFF09E solid; }
