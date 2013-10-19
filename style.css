@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-	color: #D39845;
+	color: gray;
 }
 
 hr { border-top: 1px solid #ccc; }
@@ -81,7 +81,7 @@ hr { border-top: 1px solid #ccc; }
 
 /* Three Column Layout */
 .columns, .companyColumns {
-	width: 1100px;
+	width: 1000px;
     margin: 0 auto;
     position: relative;
     left: 3%;
@@ -113,11 +113,22 @@ hr { border-top: 1px solid #ccc; }
 	padding: 10px;
 }
 
+.fourInner {
+	float: left;
+	width: 250px;
+}
+
+.fourInner h3 {
+	float: left;
+	margin-left: auto;
+    margin-right: auto;
+}
+
 .fiveInner {
 	float: left;
 	margin:5px;
-	height: 150px;
-	width: 330px;
+	height: 110px;
+	width: 230px;
 	background-color: #fff;
 	-webkit-box-shadow: 0 1px 2px rgba(3,3,3,.45);
 	-moz-box-shadow: 0 1px 2px rgba(3,3,3,.45);
@@ -126,9 +137,10 @@ hr { border-top: 1px solid #ccc; }
 }
 
 .fiveInner img {
+	width: 230px;
 	display: block;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto;
 }
 
 .eightInner {
@@ -153,6 +165,8 @@ hr { border-top: 1px solid #ccc; }
 }
 
 .team {
+	display: block;
+	float: left;
 	background-color: #fff;
 	-webkit-box-shadow: 0 1px 3px rgba(3,3,3,.45);
 	-moz-box-shadow: 0 1px 3px rgba(3,3,3,.45);
