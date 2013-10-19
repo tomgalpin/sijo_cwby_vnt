@@ -121,7 +121,7 @@ hr { border-top: 1px solid #ccc; }
 .threeInner {
 	float: left;
 	width: 320px;
-	padding: 10px;	
+	padding: 10px;
 }
 
 .fiveInner {
@@ -141,7 +141,7 @@ hr { border-top: 1px solid #ccc; }
 .eightInner {
 	float: left;
 	width: 100px;
-	padding: 10px;	
+	padding: 10px;
 }
 
 .eightInner img {
@@ -179,6 +179,7 @@ hr { border-top: 1px solid #ccc; }
 /* IDs */
 /* *********************************************************************************** */
 
+/*navbar & home logo */
 #logo {
 	width: 80px;
 	margin: 0 auto;
@@ -188,6 +189,17 @@ hr { border-top: 1px solid #ccc; }
 	width: 300px;
 	margin: 0 auto;
 }
+
+#navbar span {
+	padding-bottom: 6px;
+	font-weight: bold;
+}
+
+#navbar span:hover {
+	color: gray;
+	border-bottom: 3px solid #4ac7e3;
+}
+/* end navbar*/
 
 #socialWrapper {
 	position: relative;
@@ -210,15 +222,3 @@ hr { border-top: 1px solid #ccc; }
 #tintFeed { position: relative; right: 1%; }
 
 #slides { display: none; }
-
-#nav1 { border-top: 3px #66FFCC solid; }
-
-#nav2 { border-top: 3px #A8DBA8 solid; }
-
-#nav3 { border-top: 3px #79BD9A solid; }
-
-#nav4 { border-top: 3px #3B8686 solid; }
-
-#nav5 { border-top: 3px #0B486B solid; }
-
-#nav6 { border-top: 3px #CFF09E solid; }

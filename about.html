@@ -1,101 +1,101 @@
 <!DOCTYPE html> <!-- Cowboy Ventures Website -->
-
 <html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Cowboy Ventures</title>
+		<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Source+Sans+Pro'>
+		<link rel="stylesheet" href="style.css">
+		<!-- 	<link rel = "stylesheet" href = "slideshow.css"> -->
+		<link rel="icon" type="image/png" href = "images/cowboyFavicon.png">
+	</head>
 
-<head>
-	<meta charset = "utf-8">
-	<title> Cowboy Ventures </title>
+	<body>
+
+		<!-- navbar -->
+		<div class="nav">
+			<a href="index.html"> <img id="logo" src="images/cowboyLogo.png"> </a>
+			<a href="index.html"> <img id="text" src="images/cowboyText.png"> </a>
+
+			<ul id="navbar">
+				<li> <a id="nav1" href="#"><span>ABOUT</span> </a> </li>
+				<li> <a id="nav6" href="team.html"><span>TEAM</span></a> </li>
+				<li> <a id="nav2" href="entrepreneurs.html"><span>ENTREPRENEURS</span></a></li>
+				<li> <a id="nav3" href="companies.html"><span>COMPANIES</span></a> </li>
+				<li> <a id="nav4" href="blog.html"><span>BLOG</span></a> </li>
+				<li> <a id="nav5" href="contact.html"><span>SOCIAL</span></a> </li>
+			</ul>
+		</div>
+		<!-- navbar -->
+
+		<br><br><hr>
+		<!-- begin content of about page -->
+		<div class = "padded">
+			<h2 class = "centered"> Our Firm </h2>
+			<p class = "lineSpacing"> Cowboy Ventures helps seed-stage technology companies grow. We seek to back exceptional founders who are building products that “re-imagine” work and personal life in large and growing markets – we call it “Life 2.0″. <br> <br>
+
+			We are a community of founders, team members and entrepreneurial experts that supports each other to share lessons learned and build products that millions of customers love to use. <br> <br>
+
+			<br>
+		</div>
+
+		<h2 class = "centered"> What Our Companies are Saying </h2>
+		<div class = "padded" id = "textslide">
+			<p style = "font-family: 'Source Sans Pro, sans-serif;"></p>
+		</div>
+		<!-- end content of about page -->
+
 	<script type="text/javascript" src = "http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript" src = "js/slideshow.js"></script>
-	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-	<link rel = "stylesheet" href = "style.css">
-	<link rel = "stylesheet" href = "slideshow.css">
-	<link rel = "icon" type = "image/png" href = "images/cowboyFavicon.png">
 
-</head>
+	<!-- scrolling quotes -->
+	<script type="text/javascript">
+		$(window).load(function() {
 
-<body>
+			var element = document.getElementById('textslide');
+			element.setAttribute("class", "centered lineSpacing padded");
+			element.style.fontFamily = "Source Sans Pro";
 
-	<div class = "nav">
-		<a href = "index.html"> <img src = "images/cowboyLogo.png" id = "logo"> </a>
-		<a href = "index.html"> <img src = "images/cowboyText.png" id = "text"> </a> 
-		
-		<ul id = "navbar">
-			<li> <a href = "#" id = "nav1" style = "color:gray"> About </a> </li>
-			<li> <a href = "team.html" id = "nav6"> Team </a> </li>
-			<li> <a href = "entrepreneurs.html" id = "nav2"> Entrepreneurs </a></li>
-			<li> <a href = "companies.html" id = "nav3"> Companies </a> </li>
-			<li> <a href = "blog.html" id = "nav4"> Blog </a> </li>
-			<li> <a href = "contact.html" id = "nav5"> Social </a> </li>
-		</ul>
-	</div>
+			var i = Math.floor((Math.random()*10));
 
-	<br><br><hr>
+			var quotes = new Array();
 
-<div class = "padded">
-	<h2 class = "centered"> Our Firm </h2>
+			quotes[0] = "'I'm still waiting for invites to cattle drives and stagecoach robberies, but in the meantime, Aileen has been one of my most helpful investors.  She asks tough questions, makes me think through my strategy, and then directly makes valuable introductions to execute on that strategy.'<br> -Jason Johnson, CEO of August";
 
-	<p class = "lineSpacing"> Cowboy Ventures helps seed-stage technology companies grow. We seek to back exceptional founders who are building products that “re-imagine” work and personal life in large and growing markets – we call it “Life 2.0″. <br> <br>
+			quotes[1] = "'Cowboy has been an incredible asset for strategic thinking around growth and retention. Aileen is an all-star who loves solving big problems, and I'm humbled to get to work alongside her.'<br> -Brit Morin, CEO of Brit + Co";
 
-	We are a community of founders, team members and entrepreneurial experts that supports each other to share lessons learned and build products that millions of customers love to use. <br> <br>
+			quotes[2] = "'Aileen and Noah have already provided great strategic and tactical help to Centzy in a short amount of time. They are committed to their portfolio companies and have exceeded our expectations in terms of the product, business, and networking help they can provide. We're lucky to have them on board!'<br> -Jay Shek, CEO of Centzy";
 
-	<br>
+			quotes[3] = "'You are not well connected until Cowboy is onboard' -Jeff Chen, CEO of Joyride";
 
-</div>
+			quotes[4] = "'Cowboy Ventures brings us real-world experience in building early stage companies in a hands-on manner, and actively promotes knowledge sharing between their portfolio companies. We're excited to have them as an investor and partner!'<br> -Fred Van Den Bosch, CEO of Librato";
 
-<h2 class = "centered"> What Our Companies are Saying </h2>
-<div class = "padded" id = "textslide"><p style = "font-family: 'Source Sans Pro, sans-serif;"></p></div>
+			quotes[5] = "'Aileen leaves the BS at the door and focuses on the key issues that make the company and team run faster & stronger'<br> -Heath Wells, CEO of NuOrder";
 
-<script type="text/javascript">
+			quotes[6] = "'What I love about working with Cowboy Ventures is the feeling of a tight-knit family that I get from its community of expert advisors and portfolio companies.'<br> -Taehoon Kim, CEO of nWay";
 
-$(window).load(function() {
+			quotes[7] = "'It's a pleasure to work with Aileen. She is extremely sharp and helpful and understnds what's needed to go to the next level.'<br> -Phil Jaber, CEO of Philz";
 
-	var element = document.getElementById('textslide');
-	element.setAttribute("class", "centered lineSpacing padded");
-	element.style.fontFamily = "Source Sans Pro";
+			quotes[8] = "'Cowboy is always so fast to respond you feel like you are working with a start-up.'<br> -Luke Wroblewski, CEO of Polar";
 
-	var i = Math.floor((Math.random()*10));
+			quotes[9] = "'The team at Cowboy Ventures is proactive when it comes to helping portfolio companies. They offer to add value before you have to ask.'<br> -Mike Del Ponte, CEO of SOMA Water";
 
-	var quotes = new Array();
+			quotes[10] = "'I love working with Aileen. Her experience with high growth companies has been key to helping us to build our business faster.'<br> -Melody McCloskey, CEO of Styleseat";
 
-	quotes[0] = "'I'm still waiting for invites to cattle drives and stagecoach robberies, but in the meantime, Aileen has been one of my most helpful investors.  She asks tough questions, makes me think through my strategy, and then directly makes valuable introductions to execute on that strategy.'<br> -Jason Johnson, CEO of August";
+			$("#textslide").html(quotes[i]);
 
-	quotes[1] = "'Cowboy has been an incredible asset for strategic thinking around growth and retention. Aileen is an all-star who loves solving big problems, and I'm humbled to get to work alongside her.'<br> -Brit Morin, CEO of Brit + Co";
+			setInterval(function() {
+				$("#textslide").html(quotes[i]);
+				    if (i == quotes.length) {
+				        i = 0;
+				    }
+				    else {
+				        i++;
+				    }
+			}, 10 * 500);
 
-	quotes[2] = "'Aileen and Noah have already provided great strategic and tactical help to Centzy in a short amount of time. They are committed to their portfolio companies and have exceeded our expectations in terms of the product, business, and networking help they can provide. We're lucky to have them on board!'<br> -Jay Shek, CEO of Centzy";
-
-	quotes[3] = "'You are not well connected until Cowboy is onboard' -Jeff Chen, CEO of Joyride";
-
-	quotes[4] = "'Cowboy Ventures brings us real-world experience in building early stage companies in a hands-on manner, and actively promotes knowledge sharing between their portfolio companies. We're excited to have them as an investor and partner!'<br> -Fred Van Den Bosch, CEO of Librato";
-
-	quotes[5] = "'Aileen leaves the BS at the door and focuses on the key issues that make the company and team run faster & stronger'<br> -Heath Wells, CEO of NuOrder";
-
-	quotes[6] = "'What I love about working with Cowboy Ventures is the feeling of a tight-knit family that I get from its community of expert advisors and portfolio companies.'<br> -Taehoon Kim, CEO of nWay";
-
-	quotes[7] = "'It's a pleasure to work with Aileen. She is extremely sharp and helpful and understnds what's needed to go to the next level.'<br> -Phil Jaber, CEO of Philz";
-
-	quotes[8] = "'Cowboy is always so fast to respond you feel like you are working with a start-up.'<br> -Luke Wroblewski, CEO of Polar";
-
-	quotes[9] = "'The team at Cowboy Ventures is proactive when it comes to helping portfolio companies. They offer to add value before you have to ask.'<br> -Mike Del Ponte, CEO of SOMA Water";
-
-	quotes[10] = "'I love working with Aileen. Her experience with high growth companies has been key to helping us to build our business faster.'<br> -Melody McCloskey, CEO of Styleseat";
-
-	$("#textslide").html(quotes[i]);
-
-	setInterval(function() {
-		$("#textslide").html(quotes[i]);
-		    if (i == quotes.length) {
-		        i = 0;
-		    }
-		    else {
-		        i++;
-		    }
-	}, 10 * 500);
-
-});
-
-</script>
-
-</body>
+		});
+	</script>
+	<!-- scrolling quotes -->
+	</body>
 
 </html>
