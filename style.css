@@ -81,19 +81,12 @@ hr { border-top: 1px solid #ccc; }
 
 /* Three Column Layout */
 .columns, .companyColumns {
-    width:1100px;
+	width: 1100px;
     margin: 0 auto;
     position: relative;
     left: 3%;
 }
 
-.columns img {
-	width: 150px;
-}
-
-.companyColumns img {
-	height: 50px;
-}
 
 .twoInner {
 	float: left;
@@ -122,16 +115,20 @@ hr { border-top: 1px solid #ccc; }
 
 .fiveInner {
 	float: left;
-	width: 190px;
-	height: 75px;
-	padding: 10px;
+	margin:5px;
+	height: 150px;
+	width: 330px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 1px 2px rgba(3,3,3,.45);
+	-moz-box-shadow: 0 1px 2px rgba(3,3,3,.45);
+	box-shadow: 0 1px 2px rgba(3,3,3,.45);
+	border: solid 1px #ececec;
 }
 
-.fiveInner2 {
-	float: left;
-	width: 190px;
-	height: 75px;
-	padding: 10px;
+.fiveInner img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto }
 }
 
 .eightInner {
