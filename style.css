@@ -65,7 +65,7 @@ hr { border-top: 1px solid #ccc; }
 
 .centered { text-align: center; }
 
-.padded { padding: 0 16.5%; }
+.padded { }
 
 .lineSpacing { line-height: 1.75; }
 
@@ -179,7 +179,7 @@ hr { border-top: 1px solid #ccc; }
 /* IDs */
 /* *********************************************************************************** */
 
-/*navbar & home logo */
+/* ############ navbar & home logo ############ */
 #logo {
 	width: 80px;
 	margin: 0 auto;
@@ -199,8 +199,40 @@ hr { border-top: 1px solid #ccc; }
 	color: gray;
 	border-bottom: 3px solid #4ac7e3;
 }
-/* end navbar*/
+/* ############ end navbar ############ */
 
+/* ############ about page conent ############ */
+#about_firm {
+	padding: 0 16.5%;
+}
+
+#about_firm h2 {
+	text-align: center;
+}
+
+#about_firm p {
+	line-height: 1.75;
+}
+#about_bottom {
+	height: 250px;
+	padding-bottom: 30px;
+	background-color: #4ac7e3;
+}
+
+#about_bottom h2 {
+	text-align: center;
+	color: white;
+	padding-top: 20px;
+}
+
+#about_textslide {
+	padding: 10px 16.5%;
+	color: white;
+}
+#about_textslide p {
+	font-family: Source Sans Pro, sans-serif;
+}
+/* ############ end about page content ############ */
 #socialWrapper {
 	position: relative;
 	left: 42%;

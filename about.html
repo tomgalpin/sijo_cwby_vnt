@@ -29,19 +29,20 @@
 
 		<br><br><hr>
 		<!-- begin content of about page -->
-		<div class = "padded">
-			<h2 class = "centered"> Our Firm </h2>
-			<p class = "lineSpacing"> Cowboy Ventures helps seed-stage technology companies grow. We seek to back exceptional founders who are building products that “re-imagine” work and personal life in large and growing markets – we call it “Life 2.0″. <br> <br>
-
+		<div id="about_firm">
+			<h2>Our Firm</h2>
+			<p> Cowboy Ventures helps seed-stage technology companies grow. We seek to back exceptional founders who are building products that “re-imagine” work and personal life in large and growing markets – we call it “Life 2.0″. <br> <br>
 			We are a community of founders, team members and entrepreneurial experts that supports each other to share lessons learned and build products that millions of customers love to use. <br> <br>
-
 			<br>
 		</div>
 
-		<h2 class = "centered"> What Our Companies are Saying </h2>
-		<div class = "padded" id = "textslide">
-			<p style = "font-family: 'Source Sans Pro, sans-serif;"></p>
+		<div id="about_bottom">
+			<h2> What Our Companies are Saying </h2>
+			<div id="about_textslide">
+				<p></p>
+			</div>
 		</div>
+
 		<!-- end content of about page -->
 
 	<script type="text/javascript" src = "http://code.jquery.com/jquery-1.10.2.min.js"></script>
@@ -51,7 +52,7 @@
 	<script type="text/javascript">
 		$(window).load(function() {
 
-			var element = document.getElementById('textslide');
+			var element = document.getElementById('about_textslide');
 			element.setAttribute("class", "centered lineSpacing padded");
 			element.style.fontFamily = "Source Sans Pro";
 
@@ -81,10 +82,10 @@
 
 			quotes[10] = "'I love working with Aileen. Her experience with high growth companies has been key to helping us to build our business faster.'<br> -Melody McCloskey, CEO of Styleseat";
 
-			$("#textslide").html(quotes[i]);
+			$("#about_textslide").html(quotes[i]);
 
 			setInterval(function() {
-				$("#textslide").html(quotes[i]);
+				$("#about_textslide").html(quotes[i]);
 				    if (i == quotes.length) {
 				        i = 0;
 				    }
