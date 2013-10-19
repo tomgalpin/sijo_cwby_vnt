@@ -215,14 +215,9 @@ hr { border-top: 1px solid #ccc; }
 }
 #about_bottom {
 	height: 250px;
+	padding-top: 30px;
 	padding-bottom: 30px;
 	background-color: #4ac7e3;
-}
-
-#about_bottom h2 {
-	text-align: center;
-	color: white;
-	padding-top: 20px;
 }
 
 #about_textslide {
@@ -231,6 +226,7 @@ hr { border-top: 1px solid #ccc; }
 }
 #about_textslide p {
 	font-family: Source Sans Pro, sans-serif;
+	font-weight: none;
 }
 /* ############ end about page content ############ */
 #socialWrapper {
