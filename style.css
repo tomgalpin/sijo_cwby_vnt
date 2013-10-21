@@ -1,23 +1,11 @@
 body {
-<<<<<<< HEAD
 	padding-top: 200px;
-=======
-}
-
-p {
-	font-family: 'Source Sans Pro', sans-serif;
-}
-
-img {
-	display: block;
->>>>>>> 13eae88c8f1c71af250f6f9daaef5869996db9b2
 }
 
 .contents {
 	overflow: scroll;
 }
 
-<<<<<<< HEAD
 /* ############ navbar & home logo ############ */
 #navigation {
 	background-color: #ffffff;
@@ -29,125 +17,6 @@ img {
 
 #navigation a {
 	text-decoration: none;
-=======
-a {
-	text-decoration: none;
-	color: black;
-}
-
-a:hover {
-	color: gray;
-}
-
-hr { 
-	border-top: 1px solid #ccc; 
-	width: 100%;
-	margin-bottom: 25px;
-}
-
-/* Classes */
-/* *********************************************************************************** */
-
-.nav {
-	margin: 0 auto;
-	width: 100%;
-}
-
-.nav a { display: block; }
-
-.content {
-	margin: 0 auto;
-	width: 80%;
-}
-
-.centered { 
-	text-align: center; 
-}
-
-.padded{
-}
-
-.lineSpacing { line-height: 1.75; }
-
-.banner {
-	width: 100%;
-	background-color: #E4EDED;
-	padding: 25px 0;
-}
-
-.socialIcon {
-	float:left;
-}
-
-/* Three Column Layout */
-.columns, .companyColumns {
-	width: 1000px;
-    margin: 0 auto;
-    position: relative;
-    left: 3%;
-}
-
-
-.twoInner {
-	float: left;
-	width: 480px;
-	padding: 10px;
-}
-
-.twoInner img:hover {
-	/*
-	border: 5px solid #4DDBFF;
-	transform: translateY(-5px);
-	-webkit-transform: translateY(-5px);
-	-ms-transform: translateY(-5px);
-	margin-bottom: -5px;
-
-	transition: all linear 0.2s;
-	-webkit-transition: all linear 0.2s;
-	*/
-}
-
-.threeInner {
-	float: left;
-	width: 320px;
-	padding: 10px;
-}
-
-.fourInner {
-	float: left;
-	width: 250px;
-}
-
-.fourInner h3 {
-	float: left;
-	margin-left: auto;
-    margin-right: auto;
-}
-
-.fiveInner {
-	float: left;
-	margin:5px;
-	height: 110px;
-	width: 230px;
-	background-color: #fff;
-	-webkit-box-shadow: 0 1px 2px rgba(3,3,3,.45);
-	-moz-box-shadow: 0 1px 2px rgba(3,3,3,.45);
-	box-shadow: 0 1px 2px rgba(3,3,3,.45);
-	border: solid 1px #ececec;
-}
-
-.fiveInner img {
-	width: 230px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.eightInner {
-	float: left;
-	width: 100px;
-	padding: 10px;
->>>>>>> 13eae88c8f1c71af250f6f9daaef5869996db9b2
 }
 
 img {
@@ -159,30 +28,8 @@ img {
   margin-top: 10px;
 }
 
-<<<<<<< HEAD
 #text {
   width: 300px;
-=======
-.team {
-	display: block;
-	float: left;
-	background-color: #fff;
-	-webkit-box-shadow: 0 1px 3px rgba(3,3,3,.45);
-	-moz-box-shadow: 0 1px 3px rgba(3,3,3,.45);
-	box-shadow: 0 1px 3px rgba(3,3,3,.45);
-	border: solid 3px #fff;
-}
-
-.twoInner a {
-	color: #79bd9a;
-}
-
-/* Five Column Layout */
-.fiveColumns {
-	width:1100px;
-    margin: 0 auto;
-    position: relative;
->>>>>>> 13eae88c8f1c71af250f6f9daaef5869996db9b2
 }
 
 #the_navbar {
@@ -271,6 +118,7 @@ img {
  /* ############ about page conent ############ */
  #about_firm {
  	padding: 0 16.5%;
+ 	height: 60%;
  }
 
  #about_firm h2 {
@@ -280,20 +128,49 @@ img {
  #about_firm p {
  	line-height: 1.75;
  }
+
  #about_bottom {
  	height: 250px;
  	padding-top: 30px;
  	padding-bottom: 30px;
+
  	background-color: #4ac7e3;
+ }
+
+ .quote_image {
+ 	border: 1px solid;
+ 	width: 110px;
+ 	height: 200px;
+ 	background-image: url('Images/quotes.png');
+ 	background-repeat: no-repeat;
+ 	position: absolute;
+ 	padding: 10px;
+ 	top: 75%;
+ 	z-index: 1;
+ }
+ #quote1 {
+ 	left: 14%;
+ 	background-position: 2px 35px;
+ }
+
+ #quote2 {
+ 	left: 73%;
+ 	background-position: -102px 40px;
  }
 
  #about_textslide {
  	padding: 10px 16.5%;
  	color: white;
+ 	text-align: center;
+ 	border: 1px solid;
+ 	color: black;
+ 	height: 100px;
+ 	z-index: 2;
  }
  #about_textslide p {
  	font-family: Source Sans Pro, sans-serif;
  	font-weight: none;
+
  }
  /* ############ end about page content ############ */
 
@@ -343,12 +220,3 @@ hr {
 	margin-bottom: 25px;
 }*/
 
-<<<<<<< HEAD
-=======
-#slides { display: none; }
-
-#investors {
-	margin-right: 25px;
-	margin-bottom: 60px;
-}
->>>>>>> 13eae88c8f1c71af250f6f9daaef5869996db9b2
