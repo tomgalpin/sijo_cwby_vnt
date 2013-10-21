@@ -1,10 +1,15 @@
-<!DOCTYPE html> <!-- Cowboy Ventures Website -->
+<!-- Cowboy Ventures Website -->
+
+<!DOCTYPE html>
 <html>
 	<head>
-		<meta charset = "utf-8">
+		<meta charset="utf-8">
 		<title>Cowboy Ventures</title>
-		<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Source+Sans+Pro'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- <link rel="stylesheet" type='text/css' href='http://fonts.googleapis.com/css?family=Source+Sans+Pro'> -->
 		<link rel="stylesheet" href="style.css">
+		<!-- <link rel="stylesheet" href="boostrap-theme.min.css" media="screen"> -->
+		<link href="bootstrap.min.css" rel="stylesheet" media="screen">
 		<!-- 	<link rel = "stylesheet" href = "slideshow.css"> -->
 		<link rel="icon" type="image/png" href = "images/cowboyFavicon.png">
 	</head>
@@ -12,40 +17,47 @@
 	<body>
 
 		<!-- navbar -->
-		<div class="nav">
+		<!-- do not change these id's to 'nav' or 'navbar' this will conflict with twitter bootstrap's naming conventions -->
+		<div id="navigation">
 			<a href="index.html"> <img id="logo" src="images/cowboyLogo.png"> </a>
 			<a href="index.html"> <img id="text" src="images/cowboyText.png"> </a>
+			<div>
+				<ul id="the_navbar">
+					<li> <a href="#"><span>ABOUT</span> </a> </li>
+					<li> <a href="team.html"><span>TEAM</span></a> </li>
+					<li> <a href="entrepreneurs.html"><span>ENTREPRENEURS</span></a></li>
+					<li> <a href="companies.html"><span>COMPANIES</span></a> </li>
+					<li> <a href="blog.html"><span>BLOG</span></a> </li>
+					<li> <a href="contact.html"><span>SOCIAL</span></a> </li>
+				</ul>
+			</div>
 
-			<ul id="navbar">
-				<li> <a id="nav1" href="#"><span>ABOUT</span> </a> </li>
-				<li> <a id="nav6" href="team.html"><span>TEAM</span></a> </li>
-				<li> <a id="nav2" href="entrepreneurs.html"><span>ENTREPRENEURS</span></a></li>
-				<li> <a id="nav3" href="companies.html"><span>COMPANIES</span></a> </li>
-				<li> <a id="nav4" href="blog.html"><span>BLOG</span></a> </li>
-				<li> <a id="nav5" href="contact.html"><span>SOCIAL</span></a> </li>
-			</ul>
 		</div>
 		<!-- navbar -->
 
-		<br><br><hr>
 		<!-- begin content of about page -->
-		<div id="about_firm">
-			<h2>Our Firm</h2>
-			<p> Cowboy Ventures helps seed-stage technology companies grow. We seek to back exceptional founders who are building products that “re-imagine” work and personal life in large and growing markets – we call it “Life 2.0″. <br> <br>
-			We are a community of founders, team members and entrepreneurial experts that supports each other to share lessons learned and build products that millions of customers love to use. <br> <br>
-			<br>
+		<div class="content">
+			<div id="about_firm">
+				<h2>Our Firm</h2>
+				<p> Cowboy Ventures helps seed-stage technology companies grow. We seek to back exceptional founders who are building products that “re-imagine” work and personal life in large and growing markets – we call it “Life 2.0″. <br> <br>
+				We are a community of founders, team members and entrepreneurial experts that supports each other to share lessons learned and build products that millions of customers love to use. <br> <br>
+				<br>
+			</div>
+
+			<div id="about_bottom">
+				<div id="about_textslide">
+					<p></p>
+				</div>
+			</div>
+
 		</div>
 
-		<div id="about_bottom">
-			<div id="about_textslide">
-				<p></p>
-			</div>
-		</div>
 
 		<!-- end content of about page -->
 
 	<script type="text/javascript" src = "http://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script type="text/javascript" src = "js/slideshow.js"></script>
+	<!-- <script type="text/javascript" src = "js/slideshow.js"></script> -->
+	<script src="boostrap.min.js"></script>
 
 	<!-- scrolling quotes -->
 	<script type="text/javascript">

@@ -1,10 +1,150 @@
-/* Stylesheet for Cowboy Ventures website */
-
-/* HTML elements */
-/* *********************************************************************************** */
-
 body {
+	padding-top: 200px;
+}
 
+.contents {
+	overflow: scroll;
+}
+
+/* ############ navbar & home logo ############ */
+#navigation {
+	background-color: #ffffff;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	border-bottom: 2px solid #B2B2B2;
+}
+
+#navigation a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+#logo {
+  width: 80px;
+  margin-top: 10px;
+}
+
+#text {
+  width: 300px;
+}
+
+#the_navbar {
+	padding-top: 20px;
+	padding-bottom: 15px;
+	margin-left: 10%;
+}
+
+#the_navbar li {
+  display: inline-block;
+	list-style-type: none;
+	width: 15%;
+	text-align: center;
+}
+
+#the_navbar li:first-child {
+	margin-left: -41px;
+}
+#the_navbar span {
+	padding-bottom: 6px;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+#the_navbar span:hover,
+#the_navbar li a:active {
+	color: gray;
+	border-bottom: 3px solid #4ac7e3;
+}
+
+@media only screen and (max-width: 900px ) {
+	#the_navbar li {
+		width: 12%;
+	}
+	#the_navbar li:first-child {
+		margin-left: 0px;
+	}
+	#the_navbar  li:nth-child(3) {
+		margin-right: 50px;
+	}
+}
+
+@media only screen and (max-width: 750px ) {
+	#navigation {
+		font-size: 11px
+	}
+	#logo {
+		width: 60px;
+	}
+	#text {
+		width: 250px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+		#the_navbar li:first-child {
+			margin-left: -20px;
+			margin-right: -10px;
+		}
+		#the_navbar li:nth-child(3) {
+			margin-right: 60px;
+		}
+		#the_navbar li:nth-child(4) {
+			margin-right: 20px;
+		}
+}
+
+@media only screen and (max-width: 480px) {
+		#the_navbar li {
+			width: 13%;
+		}
+		#the_navbar li:first-child {
+			margin-left: -41px;
+		}
+		#the_navbar li:nth-child(3) {
+			margin-right: 60px;
+		}
+		#the_navbar li:nth-child(4) {
+
+		}
+}
+
+ /*############ end navbar ############*/
+
+ /* ############ about page conent ############ */
+ #about_firm {
+ 	padding: 0 16.5%;
+ }
+
+ #about_firm h2 {
+ 	text-align: center;
+ }
+
+ #about_firm p {
+ 	line-height: 1.75;
+ }
+ #about_bottom {
+ 	height: 250px;
+ 	padding-top: 30px;
+ 	padding-bottom: 30px;
+ 	background-color: #4ac7e3;
+ }
+
+ #about_textslide {
+ 	padding: 10px 16.5%;
+ 	color: white;
+ }
+ #about_textslide p {
+ 	font-family: Source Sans Pro, sans-serif;
+ 	font-weight: none;
+ }
+ /* ############ end about page content ############ */
+
+/*body {
 }
 
 p {
@@ -42,211 +182,11 @@ a {
 	color: black;
 }
 
-a:hover {
-	color: #D39845;
-}
 
-hr { border-top: 1px solid #ccc; }
 
-/* Classes */
-/* *********************************************************************************** */
-
-.nav {
-	margin: 0 auto;
+hr {
+	border-top: 1px solid #ccc;
 	width: 100%;
-}
+	margin-bottom: 25px;
+}*/
 
-.nav a { display: block; }
-
-.content {
-	margin: 0 auto;
-	width: 80%;
-}
-
-.centered { text-align: center; }
-
-.padded { }
-
-.lineSpacing { line-height: 1.75; }
-
-.banner {
-	width: 100%;
-	background-color: #E4EDED;
-	padding: 25px 0;
-}
-
-.socialIcon {
-	float:left;
-}
-
-/* Three Column Layout */
-.columns, .companyColumns {
-    width:1100px;
-    margin: 0 auto;
-    position: relative;
-    left: 3%;
-}
-
-.columns img {
-	border-radius: 200px;
-	-webkit-border-radius: 200px;
-	-moz-border-radius: 200px;
-	height: 150px;
-	width: 150px;
-}
-
-.companyColumns img {
-	height: 50px;
-}
-
-.twoInner {
-	float: left;
-	width: 480px;
-	padding: 10px;
-}
-
-.twoInner img:hover {
-	/*
-	border: 5px solid #4DDBFF;
-	transform: translateY(-5px);
-	-webkit-transform: translateY(-5px);
-	-ms-transform: translateY(-5px);
-	margin-bottom: -5px;
-
-	transition: all linear 0.2s;
-	-webkit-transition: all linear 0.2s;
-	*/
-}
-
-.threeInner {
-	float: left;
-	width: 320px;
-	padding: 10px;
-}
-
-.fiveInner {
-	float: left;
-	width: 190px;
-	height: 75px;
-	padding: 10px;
-}
-
-.fiveInner2 {
-	float: left;
-	width: 190px;
-	height: 75px;
-	padding: 10px;
-}
-
-.eightInner {
-	float: left;
-	width: 100px;
-	padding: 10px;
-}
-
-.eightInner img {
-	width: 100px;
-	height: 100px;
-}
-
-.eightInner:hover {
-	transform: translateY(-22px);
-	-webkit-transform: translateY(-22px);
-	-ms-transform: translateY(-22px);
-	color: #3B8686;
-
-	transition: all linear 0.2s;
-	-webkit-transition: all linear 0.2s;
-}
-
-/* Five Column Layout */
-.fiveColumns {
-	width:1100px;
-    margin: 0 auto;
-    position: relative;
-}
-
-.column {
-	float:left;
-    width:200px;
-    padding: 10px;
-}
-
-.column img { height: 50px; }
-
-.stretch { width: 175px; }
-
-/* IDs */
-/* *********************************************************************************** */
-
-/* ############ navbar & home logo ############ */
-#logo {
-	width: 80px;
-	margin: 0 auto;
-}
-
-#text {
-	width: 300px;
-	margin: 0 auto;
-}
-
-#navbar span {
-	padding-bottom: 6px;
-	font-weight: bold;
-}
-
-#navbar span:hover {
-	color: gray;
-	border-bottom: 3px solid #4ac7e3;
-}
-/* ############ end navbar ############ */
-
-/* ############ about page conent ############ */
-#about_firm {
-	padding: 0 16.5%;
-}
-
-#about_firm h2 {
-	text-align: center;
-}
-
-#about_firm p {
-	line-height: 1.75;
-}
-#about_bottom {
-	height: 250px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	background-color: #4ac7e3;
-}
-
-#about_textslide {
-	padding: 10px 16.5%;
-	color: white;
-}
-#about_textslide p {
-	font-family: Source Sans Pro, sans-serif;
-	font-weight: none;
-}
-/* ############ end about page content ############ */
-#socialWrapper {
-	position: relative;
-	left: 42%;
-}
-
-#venturePartners {
-	position: relative;
-	left: 5%;
-}
-
-#spacing { height: 550px; }
-
-#librato img { height: 40px; padding-bottom: 10px;}
-
-#philz img { width: 120px; }
-
-#joyride img { width: 150px; height: 40px; }
-
-#tintFeed { position: relative; right: 1%; }
-
-#slides { display: none; }
