@@ -1,61 +1,37 @@
-<!-- Cowboy Ventures Website -->
+<!DOCTYPE html> <!-- Cowboy Ventures Website -->
 
-<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Cowboy Ventures</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- <link rel="stylesheet" type='text/css' href='http://fonts.googleapis.com/css?family=Source+Sans+Pro'> -->
-		<link rel="stylesheet" href="style.css">
-		<!-- <link rel="stylesheet" href="boostrap-theme.min.css" media="screen"> -->
-		<link href="bootstrap.min.css" rel="stylesheet" media="screen">
-		<!-- 	<link rel = "stylesheet" href = "slideshow.css"> -->
-		<link rel="icon" type="image/png" href = "images/cowboyFavicon.png">
-	</head>
 
-	<body>
+<head>
+	<meta charset = "utf-8">
+	<title> Cowboy Ventures </title>
+	<script type="text/javascript" src = "//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script type="text/javascript" src = "http://code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src = "js/slideshow.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+	<link rel = "stylesheet" href = "style.css">
+	<link rel = "stylesheet" href = "slideshow.css">
+	<link rel = "icon" type = "image/png" href = "images/cowboyFavicon.png">
 
-		<!-- navbar -->
-		<nav class="navbar navbar-default" role="navigation">
+</head>
 
+<body>
+
+	<!-- navbar -->
+		<div class="nav">
 			<a href="index.html"> <img id="logo" src="images/cowboyLogo.png"> </a>
 			<a href="index.html"> <img id="text" src="images/cowboyText.png"> </a>
 
-<<<<<<< HEAD
-		  <div class="navbar-header">
-		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-		      <span class="sr-only">NAVIGATION</span>
-		      <span class="icon-bar"></span>
-		      <span class="icon-bar"></span>
-		      <span class="icon-bar"></span>
-		    </button>
-		  </div>
-
-		  <!-- Collect the nav links, forms, and other content for toggling -->
-		  <div class="collapse navbar-collapse navbar-ex1-collapse">
-		    <ul class="nav navbar-nav">
-		      <li> <a id="nav1" class="active" href="#"><span>ABOUT</span> </a> </li>
-		      <li> <a id="nav6" href="team.html"><span>TEAM</span></a> </li>
-		      <li> <a id="nav2" href="entrepreneurs.html"><span>ENTREPRENEURS</span></a></li>
-		      <li> <a id="nav3" href="companies.html"><span>COMPANIES</span></a> </li>
-		      <li> <a id="nav4" href="blog.html"><span>BLOG</span></a> </li>
-		      <li> <a id="nav5" href="contact.html"><span>SOCIAL</span></a> </li>
-		    </ul>
-		  </div><!-- /.navbar-collapse -->
-		</nav><!-- end navbar -->
-=======
 			<ul id="navbar">
-				<li> <a href="about.html"> <span>ABOUT</span> </a> </li>
-				<li> <a href="team.html"> <span>TEAM</span></a> </li>
-				<li> <a href="entrepreneurs.html"> <span>ENTREPRENEURS</span></a></li>
-				<li> <a href="companies.html"> <span>COMPANIES</span></a> </li>
-				<li> <a href="blog.html"> <span>BLOG</span></a> </li>
-				<li> <a href="contact.html"> <span>SOCIAL</span></a> </li>
+				<li> <a id="nav1" href="#"> <span>ABOUT</span> </a> </li>
+				<li> <a id="nav6" href="team.html"> <span>TEAM</span></a> </li>
+				<li> <a id="nav2" href="entrepreneurs.html"> <span>ENTREPRENEURS</span></a></li>
+				<li> <a id="nav3" href="companies.html"> <span>COMPANIES</span></a> </li>
+				<li> <a id="nav4" href="blog.html"> <span>BLOG</span></a> </li>
+				<li> <a id="nav5" href="contact.html"> <span>SOCIAL</span></a> </li>
 			</ul>
 		</div>
 		<!-- navbar -->
->>>>>>> 13eae88c8f1c71af250f6f9daaef5869996db9b2
 
 	<br><br><hr>
 
@@ -67,8 +43,11 @@
 	<div class = "columns">
 	        <div class = "twoInner">
 	        	<div>
-					<a href = "aileen.html"> <img src="images/investors/aileenProfile.png" class="team" id="investors"> </a>
-					<h3> AILEEN LEE </h3>
+					<a href = "aileen.html"> <img src="images/aileenProfile.png"> </a>
+					<h3 class = "centered"> AILEEN LEE </h3>
+				</div>
+
+				<div>
 					<p> Cowboy Ventures was founded by Aileen Lee in 2012.  Prior to Cowboy, Aileen had been a partner with the venture firm Kleiner Perkins Caufield &amp Byers (KPCB) <br>
 
 					<a href = "aileen.html"> Read More... </a>
@@ -79,8 +58,11 @@
 
 	        <div class = "twoInner">
 	        	<div>
-					<img src="images/investors/noahProfile.png" class="team" id="investors">
-					<h3> NOAH LICHTENSTEIN </h3>
+					<img src="images/noahProfile.jpg">
+					<h3 class = "centered"> NOAH LICHTENSTEIN </h3>
+				</div>
+
+				<div>
 					<p> Noah Lichtenstein is a Partner at Cowboy Ventures. Prior to joining Cowboy, Noah was a founding member of HomeRun, a leading social commerce platform <br>
 
 					<a href = "noah.html"> Read More... </a>
@@ -101,45 +83,80 @@
 	</div>
 
 		<div class = "columns">
-	        <div class = "fourInner">
+	        <div class = "twoInner">
 	        	<div>
-					<img src="images/ninjas/andyNinja.png" class="team">
-					<h3> ANDY JOHNS </h3>
+					<img src="images/andyNinja.png">
+					<h3 class = "centered"> ANDY JOHNS </h3>
+				</div>
+
+				<div>
+					<p> I've spent the last 7 years helping consumer startups figure out how to grow, having previously been a product manager and internet marketer working on <br>
+
+					<a href = "andy.html"> Read More... </a>
+
+					</p>
 				</div>
 	        </div>
 
-	        <div class = "fourInner">
+	        <div class = "twoInner">
 	        	<div>
-					<img src="images/ninjas/ericNinja.png" class="team">
-					<h3> ERIC FENG </h3>
+					<img src="images/ericNinja.png">
+					<h3 class = "centered"> ERIC FENG </h3>
+				</div>
+
+				<div>
+					<p> Eric Feng is currently the Chief Technology Officer at Flipboard, a personal magazine used by more than 80MM people. Previously Eric was the<br>
+
+					<a href = "eric.html"> Read More... </a>
+
+					</p>
 				</div>
 	        </div>
 
 	</div> <!-- end twoColumns -->
 
 			<div class = "columns">
-	        <div class = "fourInner">
+	        <div class = "twoInner">
 	        	<div>
-					<img src="images/ninjas/chrisNinja.jpg" class="team">
-					<h3> CHRIS POULIOT </h3>
+					<img src="images/chrisNinja.jpg">
+					<h3 class = "centered"> CHRIS POULIOT </h3>
+				</div>
+
+				<div>
+					<p> Chris Pouliot is a real life rocket scientist, who has also spun astronauts until they were motion sick, split atoms to make an aircraft carrier go fast <br>
+
+					<a href = "chris.html"> Read More... </a>
+
+					</p>
 				</div>
 	        </div>
 
-	        <div class = "fourInner">
+	        <div class = "twoInner">
 	        	<div>
-					<img src="images/ninjas/tinaNinja.png" class="team">
-					<h3> TINA SHARKEY </h3>
+					<img src="images/tinaNinja.png">
+					<h3 class = "centered"> TINA SHARKEY </h3>
 				</div>
 
+				<div>
+					<p> Tina Sharkey builds brands and businesses that bring value to customers around the world. She is passionate about consumer internet, mobile technology and <br>
+
+					<a href = "tina.html"> Read More... </a>
+
+					</p>
+				</div>
 	        </div>
 
 	</div> <!-- end twoColumns -->
 
 		<div class = "columns">
-	        <div class = "fourInner">
+	        <div class = "twoInner">
 	        	<div>
-					<img src="images/ninjas/laurenProfile.jpg" class="team">
-					<h3> LAUREN KOLODNY </h3>
+					<img src="images/laurenProfile.jpg">
+					<h3 class = "centered"> LAUREN KOLODNY </h3>
+				</div>
+
+				<div>
+					<p> Lauren Kolodny has been working with us since January, and we hope to continue to monopolize as much of time as possible while she finishes up at the Stanford GSB. </p>
 				</div>
 	        </div>
 		</div> <!-- end twoColumns -->

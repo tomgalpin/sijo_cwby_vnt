@@ -41,8 +41,8 @@
    right: 0;
    margin-bottom: 0;
    background: #000;
-   background: rgba(0, 0, 0, 0.6);
-   color: #FFF;
+   background: rgba(255, 255, 255, 0.8);
+   color: #000;
    padding: 10px;
    text-align: center;
    -webkit-transition: all 0.3s ease-out;
@@ -57,8 +57,8 @@
    height: 95%;
    margin-bottom: 0;
    background: #000;
-   background: rgba(0, 0, 0, 0.7);
-   color: #FFF;
+   background: rgba(255, 255, 255, 0.8);
+   color: #000;
    padding: 10px;
    text-align: center;
 }
