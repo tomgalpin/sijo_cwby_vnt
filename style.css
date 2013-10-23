@@ -233,7 +233,7 @@ img {
 /* ############ end companies page content ############ */
 
 
-/* team page*/
+/* ###########team page ###########*/
 
 .team {
     display: block;
@@ -245,7 +245,19 @@ img {
     border: solid 3px #fff;
 }
 
-/* end team page */
+/* ########### end team page ########### */
+
+/* ########### blog page ########### */
+
+/*these need to be tweaked*/
+iframe {
+	width: 110%;
+	height: 700px;
+	position: relative;
+	right: 3%;
+
+}
+/* ########### end blog page ########### */
 /*body {
 }
 
