@@ -1,61 +1,149 @@
-<!DOCTYPE html> <!-- Cowboy Ventures Website -->
+<!-- Cowboy Ventures Website -->
 
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cowboy Ventures</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" type='text/css' href='http://fonts.googleapis.com/css?family=Source+Sans+Pro'> -->
+    <!-- <link rel="stylesheet" href="boostrap-theme.min.css" media="screen"> -->
+    <link href="bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="style.css">
+    <!--  <link rel = "stylesheet" href = "slideshow.css"> -->
+    <link rel="icon" type="image/png" href = "images/cowboyFavicon.png">
+  </head>
 
-<head>
-	<meta charset = "utf-8">
-	<title> Cowboy Ventures </title>
-	<script type="text/javascript" src = "//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-	<script type="text/javascript" src = "js/slideshow.js"></script>
-	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-	<link rel = "stylesheet" href = "style.css">
-	<link rel = "stylesheet" href = "slideshow.css">
-	<link rel = "icon" type = "image/png" href = "images/cowboyFavicon.png">
+  <body>
 
-	<script type="text/javascript" src = "jquery.slides.min.js"></script>
+    <!-- navbar -->
+    <!-- do not change these id's to 'nav' or 'navbar' this will conflict with twitter bootstrap's naming conventions -->
+    <div id="navigation">
+      <a href="index.html"> <img id="logo" src="images/cowboyLogo.png"> </a>
+      <a href="index.html"> <img id="text" src="images/cowboyText.png"> </a>
+      <div>
+        <ul id="the_navbar">
+          <li> <a href="#"><span>ABOUT</span> </a> </li>
+          <li> <a href="team.html"><span>TEAM</span></a> </li>
+          <li> <a href="entrepreneurs.html"><span>ENTREPRENEURS</span></a></li>
+          <li> <a href="companies.html"><span>COMPANIES</span></a> </li>
+          <li> <a href="blog.html"><span>BLOG</span></a> </li>
+          <li> <a href="contact.html"><span>SOCIAL</span></a> </li>
+        </ul>
+      </div>
 
-<!-- Start WOWSlider.com HEAD section -->
-	<link rel="stylesheet" type="text/css" href="engine2//style.css" media="screen" />
-	<script type="text/javascript" src="engine2//jquery.js"></script>
-<!-- End WOWSlider.com HEAD section -->
+    </div>
+    <!-- navbar -->
 
-</head>
+    <!-- carousel/slider -->
+    <!-- carousel wrapper -->
+    <div id="car_outer_wrapper" class="row" style="padding-top: 40px">
+    	<div class="col-md-1"></div>
+    	<div class="col-md-10">
+		  	<div id="myCarousel" class="carousel slide">
+		  		<ol class="carousel-indicators">
+		  			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		  			<li data-target="#myCarousel" data-slide-to="1"></li>
+		  			<li data-target="#myCarousel" data-slide-to="2"></li>
+		  		</ol>
+		  		<div class="carousel-inner">
+		  			<div class="item active">
+		             <img src="Images/products/dish.jpg" width="100%">
+		  				<div class="carousel-caption">
+		  					<h4>First label</h4>
+		  					<p>A working Bootstrap carousel example.</p>
+		  				</div>
+		  			</div>
 
-<body>
+		  			<!--2nd item -->
+						<div class="item">
+			           <img src=" Images/products/libratoproduct.jpg" width="100%">
+							<div class="carousel-caption">
+								<h4>First label</h4>
+								<p>A working Bootstrap carousel example.</p>
+							</div>
+						</div>
+						<!--3rd item -->
+						<div class="item">
+			           <img src="Images/products/philzproduct.jpg" width="100%">
+							<div class="carousel-caption">
+								<h4>First label</h4>
+								<p>A working Bootstrap carousel example.</p>
+							</div>
+						</div>
+						<!--4th item -->
+						<div class="item">
+			           <img src="Images/products/nwayproduct.jpg" width="100%">
+							<div class="carousel-caption">
+								<h4>First label</h4>
+								<p>A working Bootstrap carousel example.</p>
+							</div>
+						</div>
+						<!--5th item -->
+						<div class="item">
+			           <img src="Images/products/polarproduct.jpg" width="100%">
+							<div class="carousel-caption">
+								<h4>First label</h4>
+								<p>A working Bootstrap carousel example.</p>
+							</div>
+						</div>
+						<!--6th item -->
+						<div class="item">
+			           <img src="Images/products/britproduct.jpg" width="100%">
+							<div class="carousel-caption">
+								<h4>First label</h4>
+								<p>A working Bootstrap carousel example.</p>
+							</div>
+						</div>
+						<!--7th item -->
+						<div class="item">
+			           <img src="Images/products/joyrideproduct.jpg" width="100%">
+							<div class="carousel-caption">
+								<h4>First label</h4>
+								<p>A working Bootstrap carousel example.</p>
+							</div>
+						</div>
+						<!--8th item -->
+						<div class="item">
+			           <img src="Images/products/augustproduct.jpg" width="100%">
+							<div class="carousel-caption">
+								<h4>First label</h4>
+								<p>A working Bootstrap carousel example.</p>
+							</div>
+						</div>
+						<!--9th item -->
+						<div class="item">
+			           <img src="Images/products/nuorderproduct.jpg" width="100%">
+							<div class="carousel-caption">
+								<h4>First label</h4>
+								<p>A working Bootstrap carousel example.</p>
+							</div>
+						</div>
 
-	<!-- navbar -->
-		<div class="nav">
-			<a href="index.html"> <img id="logo" src="images/cowboyLogo.png"> </a>
-			<a href="index.html"> <img id="text" src="images/cowboyText.png"> </a>
+		  		</div>
+		  		<!-- Controls -->
+		  		<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+		  		  <span class="icon-prev"></span>
+		  		</a>
+		  		<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+		  		  <span class="icon-next"></span>
+		  		</a>
 
-			<ul id="navbar">
-				<li> <a id="nav1" href="#"> <span>ABOUT</span> </a> </li>
-				<li> <a id="nav6" href="team.html"> <span>TEAM</span></a> </li>
-				<li> <a id="nav2" href="entrepreneurs.html"> <span>ENTREPRENEURS</span></a></li>
-				<li> <a id="nav3" href="companies.html"> <span>COMPANIES</span></a> </li>
-				<li> <a id="nav4" href="blog.html"> <span>BLOG</span></a> </li>
-				<li> <a id="nav5" href="contact.html"> <span>SOCIAL</span></a> </li>
-			</ul>
-		</div>
-		<!-- navbar -->
+		  	</div>
+		  </div>
+	  	<div class="col-md-1"></div>
+	  </div>    <!-- carousel outer wrapper -->
 
-	<br><br>
 
-<div class = "banner">
-	<!-- Start WOWSlider.com BODY section id=wowslider-container2 -->
-	<div id="wowslider-container2">
-	<div class="ws_images"><ul>
-<li><img src="data2/images/dish.jpg" alt="" title="" id="wows2_0"/></li>
-<li><img src="data2/images/libratoproduct.jpg" alt="Librato Team" title="Librato Team" id="wows2_1"/></li>
-<li><img src="data2/images/philzproduct.jpg" alt="Philz Coffee" title="Philz Coffee" id="wows2_2"/></li>
-<li><img src="data2/images/nwayproduct.jpg" alt="Chronoblade, by nWay" title="Chronoblade, by nWay" id="wows2_3"/></li>
-<li><img src="data2/images/polarproduct.jpg" alt="Polar" title="Polar" id="wows2_4"/></li>
-<li><img src="data2/images/britproduct.jpg" alt="Brit + Co Team" title="Brit + Co Team" id="wows2_5"/></li>
-<li><img src="data2/images/joyrideproduct.jpg" alt="Joyride" title="Joyride" id="wows2_6"/></li>
-<li><img src="data2/images/augustproduct.jpg" alt="August Lock" title="August Lock" id="wows2_7"/></li>
-<li><img src="data2/images/nuorderproduct.jpg" alt="NuOrder" title="NuOrder" id="wows2_8"/></li>
-</ul></div>
-<div class="ws_bullets"><div>
+
+
+<hr>
+<br>
+<br>
+<br>
+<br>
+
+<!-- <div class="ws_bullets"><div>
 <a href="#" title=""><img src="data2/tooltips/dish.jpg" alt=""/>1</a>
 <a href="#" title="Librato Team"><img src="data2/tooltips/libratoproduct.jpg" alt="Librato Team"/>2</a>
 <a href="#" title="Philz Coffee"><img src="data2/tooltips/philzproduct.jpg" alt="Philz Coffee"/>3</a>
@@ -72,8 +160,9 @@
 	</div>
 	<script type="text/javascript" src="engine2//wowslider.js"></script>
 	<script type="text/javascript" src="engine2//script.js"></script>
-<!-- End WOWSlider.com BODY section -->
-</div>
+<! End WOWSlider.com BODY section -->
+
+
 
 <div class = "content">
 
@@ -83,6 +172,16 @@
 			<div class="tintup-inner"></div>
 		</div>
 	</div>
+
+	<script type="text/javascript" src = "http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<!-- <script type="text/javascript" src = "js/slideshow.js"></script> -->
+	<script src="boostrap.min.js"></script>
+
+	<script>
+	  $(document).ready(function(){
+	    $('.carousel').carousel();
+	  });
+	</script>
 
 </body>
 
