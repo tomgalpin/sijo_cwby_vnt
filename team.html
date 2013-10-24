@@ -74,41 +74,55 @@
       <div class="col-md-2"></div>
     </div> <!-- founders/row -->
   </div> <!-- team_top -->
+
   <hr>
+
   <div id="team_bottom">
     <h2>Extended Cowboy Family </h2>
 
     <p> Our team consists of interns and Special Advisors -- or “ninjas” as we sometimes call them -- who provide expert advice on issues that are critical <br>for early stage companies.  These folks are rock stars and we’re proud to work with them. </p>
+
     <div id="tbottom_columns">
       <div id="extended_team" class="row">
         <div class="col-md-2"></div>
 
         <div class="col-md-2">
-          <img src="images/ninjas/andyNinja.png" class="team">
+          <a data-toggle="modal" data-target="#andy_modal" >
+            <img src="images/ninjas/andyNinja.png" class="team">
+          </a>
           <h4> ANDY JOHNS </h4>
           <br>
-          <img src="images/ninjas/laurenProfile.jpg" class="team">
+          <a data-toggle="modal" data-target="#lauren_modal" >
+            <img src="images/ninjas/laurenProfile.jpg" class="team">
+          </a>
           <h4> LAUREN KOLODNY </h4>
         </div>
         <div class="col-md-2">
-          <img src="images/ninjas/ericNinja.png" class="team">
+          <a data-toggle="modal" data-target="#eric_modal" >
+            <img src="images/ninjas/ericNinja.png" class="team">
+          </a>
           <h4> ERIC FENG </h4>
         </div>
         <div class="col-md-2">
-          <img src="images/ninjas/chrisNinja.jpg" class="team">
+          <a data-toggle="modal" data-target="#chris_modal" >
+            <img src="images/ninjas/chrisNinja.jpg" class="team">
+          </a>
           <h4> CHRIS POULIOT </h4>
         </div>
         <div class="col-md-2">
-          <img src="images/ninjas/tinaNinja.png" class="team">
+          <a data-toggle="modal" data-target="#tina_modal" >
+            <img src="images/ninjas/tinaNinja.png" class="team">
+          </a>
           <h4> TINA SHARKEY </h4>
         </div>
 
         <div class="col-md-2"></div>
       </div>    <!-- extended_team/row -->
     </div>   <!-- tbottom_columns -->
+
   </div>  <!-- team_bottom -->
 
-  <!-- modal content -->
+  <!-- ################   modal content ################-->
 
   <!-- Aileen Modal -->
    <div class="modal fade" id="aileen_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -207,106 +221,236 @@
     </div><!-- /.noah modal -->
 
   <!-- Andy Johns Modal -->
-   <div class="modal fade" id="andy_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-     <div class="modal-dialog">
-       <div class="modal-content">
-         <div class="modal-header">
-           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-           <h4 class="modal-title">Modal title</h4>
-         </div>
-         <div class="modal-body">
-           ...
-         </div>
-         <div class="modal-footer">
-           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-           <button type="button" class="btn btn-primary">Save changes</button>
-         </div>
-       </div><!-- /.modal-content -->
-     </div><!-- /.modal-dialog -->
-   </div><!-- /.andy modal -->
+  <div class="modal fade" id="andy_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+        <div class="modal-body">  <!--begin modal body -->
+
+         <div class="modal_content_wraps">
+           <div class="row">
+
+             <div class="col-md-4">
+               <img class="modal_image" src="images/ninjas/andyNinja.png">
+               <div class="socialIcon fb_icon">
+                 <a href="https://www.facebook.com/aileenwlee" target="_blank"> <img src="images/facebookIcon.png"> </a>
+               </div>
+
+               <div class="socialIcon">
+                 <a href="http://www.twitter.com/alee" target="_blank"> <img src="images/twitterIcon.png"> </a>
+               </div>
+
+               <div class="socialIcon">
+                 <a href="http://www.linkedin.com/in/aileenwlee" target="_blank"> <img src="images/linkedinIcon.png"> </a>
+               </div>
+
+             </div>
+
+             <div class="col-md-8">
+                <h3 class="modal_name">ANDY JOHNS</h3>
+                <h4 > Ninja </h4>
+
+               <p class="modal_personal_info">
+                Andy has spent the last 7 years helping consumer startups figure out how to grow, having previously been a product manager and internet marketer working on user growth and engagement for Facebook, Twitter and Quora. Today I'm an EIR at Greylock and working on figuring out what I want to do next. <br><br>
+
+                I like working with Cowboy ventures because the team is fun and sharp, decision-making happens quickly when it comes to figuring out which companies we want to invest in and help grow, and I'm able to have a meaningful impact on our portfolio companies by sharing my knowledge with them.
+              </p>
+             </div>
+
+           </div>  <!-- row -->
+         </div>  <!-- modal content wraps -->
+        </div>  <!-- end modal body -->
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.andy modal -->
 
    <!-- Eric Feng Modal -->
-    <div class="modal fade" id="eric_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 class="modal-title">Modal title</h4>
-          </div>
-          <div class="modal-body">
-            ...
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.eric modal -->
+   <div class="modal fade" id="eric_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog">
+       <div class="modal-content">
+
+           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+         <div class="modal-body">  <!--begin modal body -->
+
+          <div class="modal_content_wraps">
+            <div class="row">
+
+              <div class="col-md-4">
+                <img class="modal_image" src="images/ninjas/ericNinja.png">
+                <div class="socialIcon fb_icon">
+                  <a href="https://www.facebook.com/aileenwlee" target="_blank"> <img src="images/facebookIcon.png"> </a>
+                </div>
+
+                <div class="socialIcon">
+                  <a href="http://www.twitter.com/alee" target="_blank"> <img src="images/twitterIcon.png"> </a>
+                </div>
+
+                <div class="socialIcon">
+                  <a href="http://www.linkedin.com/in/aileenwlee" target="_blank"> <img src="images/linkedinIcon.png"> </a>
+                </div>
+
+              </div>
+
+              <div class="col-md-8">
+                 <h3 class="modal_name">ERIC FENG</34>
+                 <h4 > Ninja </h4>
+
+                <p class="modal_personal_info">
+                  Eric Feng is currently the Chief Technology Officer at Flipboard, a personal magazine used by more than 80MM people. Previously Eric was the founder and CEO of Erly, a social startup funded by Kleiner Perkins Caufield &amp Byers (where Eric was also a Partner) and acquired in 2012. Before joining Kleiner Perkins, Eric was the founding CTO at Hulu, a joint venture of NBC Universal, News Corp. and The Walt Disney Company.
+               </p>
+              </div>
+
+            </div>  <!-- row -->
+          </div>  <!-- modal content wraps -->
+         </div>  <!-- end modal body -->
+       </div><!-- /.modal-content -->
+     </div><!-- /.modal-dialog -->
+   </div><!-- /.eric modal -->
 
     <!-- Chris Pouliot Modal -->
-     <div class="modal fade" id="chris_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-       <div class="modal-dialog">
-         <div class="modal-content">
-           <div class="modal-header">
-             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-             <h4 class="modal-title">Modal title</h4>
-           </div>
-           <div class="modal-body">
-             ...
-           </div>
-           <div class="modal-footer">
-             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-             <button type="button" class="btn btn-primary">Save changes</button>
-           </div>
-         </div><!-- /.modal-content -->
-       </div><!-- /.modal-dialog -->
-     </div><!-- /.chris modal -->
+    <div class="modal fade" id="chris_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+           <div class="modal-content">
+
+               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+             <div class="modal-body">  <!--begin modal body -->
+
+              <div class="modal_content_wraps">
+                <div class="row">
+
+                  <div class="col-md-4">
+                    <img class="modal_image" src="images/ninjas/chrisNinja.jpg">
+                    <div class="socialIcon fb_icon">
+                      <a href="https://www.facebook.com/aileenwlee" target="_blank"> <img src="images/facebookIcon.png"> </a>
+                    </div>
+
+                    <div class="socialIcon">
+                      <a href="http://www.twitter.com/alee" target="_blank"> <img src="images/twitterIcon.png"> </a>
+                    </div>
+
+                    <div class="socialIcon">
+                      <a href="http://www.linkedin.com/in/aileenwlee" target="_blank"> <img src="images/linkedinIcon.png"> </a>
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-8">
+                     <h3 class="modal_name">CHRIS POULIOT</34>
+                     <h4 > Ninja </h4>
+
+                    <p class="modal_personal_info">
+                      Chris Pouliot is a real life rocket scientist, who has also spun astronauts until they were motion sick, split atoms to make an aircraft carrier go fast, provided insightful analysis that led to Google to change their top ad color, and helped Netflix determine what movies and TV shows to buy, and how much they should pay. In his free time, he enjoys being an advisor to start-ups (including awesome ones from Cowboy).<br><br>
+
+                      Cowboy’s portfolio companies are great to work with – they super smart and as an added bonus, super nice!  They understand the need for data and analytics to help optimize their business – so that makes it easier for me to help them fill in the details.
+                   </p>
+                  </div>
+
+                </div>  <!-- row -->
+              </div>  <!-- modal content wraps -->
+             </div>  <!-- end modal body -->
+           </div><!-- /.modal-content -->
+         </div><!-- /.modal-dialog -->
+       </div><!-- /.chris modal -->
 
    <!-- Tina Sharkey Modal -->
-    <div class="modal fade" id="tina_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 class="modal-title">Modal title</h4>
-          </div>
-          <div class="modal-body">
-            ...
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.tina modal -->
+   <div class="modal fade" id="tina_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+            <div class="modal-body">  <!--begin modal body -->
+
+             <div class="modal_content_wraps">
+               <div class="row">
+
+                 <div class="col-md-4">
+                   <img class="modal_image" src="images/ninjas/tinaNinja.png">
+                   <div class="socialIcon fb_icon">
+                     <a href="https://www.facebook.com/aileenwlee" target="_blank"> <img src="images/facebookIcon.png"> </a>
+                   </div>
+
+                   <div class="socialIcon">
+                     <a href="http://www.twitter.com/alee" target="_blank"> <img src="images/twitterIcon.png"> </a>
+                   </div>
+
+                   <div class="socialIcon">
+                     <a href="http://www.linkedin.com/in/aileenwlee" target="_blank"> <img src="images/linkedinIcon.png"> </a>
+                   </div>
+
+                 </div>
+
+                 <div class="col-md-8">
+                    <h3 class="modal_name">TINA SHARKEY</34>
+                    <h4 > Ninja </h4>
+
+                   <p class="modal_personal_info">
+                     Tina Sharkey builds brands and businesses that bring value to customers around the world. She is passionate about consumer internet, mobile technology and digital media as forces of social and commercial good. Tina has created and scaled multiple consumer internet businesses to profitability worldwide. She has led strategic acquisitions and partnerships, built global consumer insight platforms and scaled technology, social and digital media infrastructures.
+                  </p>
+                 </div>
+
+               </div>  <!-- row -->
+             </div>  <!-- modal content wraps -->
+            </div>  <!-- end modal body -->
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.tina modal -->
 
     <!-- LAUREN KOLODNY Modal -->
-     <div class="modal fade" id="lauren_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-       <div class="modal-dialog">
-         <div class="modal-content">
-           <div class="modal-header">
-             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-             <h4 class="modal-title">Modal title</h4>
-           </div>
-           <div class="modal-body">
-             ...
-           </div>
-           <div class="modal-footer">
-             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-             <button type="button" class="btn btn-primary">Save changes</button>
-           </div>
-         </div><!-- /.modal-content -->
-       </div><!-- /.modal-dialog -->
-     </div><!-- /.lauren modal -->
+    <div class="modal fade" id="lauren_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+           <div class="modal-content">
 
+               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 
+             <div class="modal-body">  <!--begin modal body -->
 
+              <div class="modal_content_wraps">
+                <div class="row">
 
+                  <div class="col-md-4">
+                    <img class="modal_image" src="images/ninjas/laurenProfile.jpg">
+                    <div class="socialIcon fb_icon">
+                      <a href="https://www.facebook.com/aileenwlee" target="_blank"> <img src="images/facebookIcon.png"> </a>
+                    </div>
 
+                    <div class="socialIcon">
+                      <a href="http://www.twitter.com/alee" target="_blank"> <img src="images/twitterIcon.png"> </a>
+                    </div>
 
+                    <div class="socialIcon">
+                      <a href="http://www.linkedin.com/in/aileenwlee" target="_blank"> <img src="images/linkedinIcon.png"> </a>
+                    </div>
 
+                  </div>
+
+                  <div class="col-md-8">
+                     <h3 class="modal_name">LAUREN KOLODNY</h3>
+                     <h4 > Ninja </h4>
+
+                    <p class="modal_personal_info">
+                      Possibly Lauren's real bio:  Children like her jokes.  All animals everywhere try to snuggle with her.  Parents wish she would marry their child.  Neighbors both fear and love her.  The government pays her for her thoughts on foreign affairs, economics, and tech.  They did not ask her opinion on the Obamacare website, however.  This is clear.<br><br>
+
+                      She graduated from Harvard at 12, just because she could.  She was an olympic bronze boxer at 16.  She once lived in Thailand and may or may not have ties to the Russian mob, and the last living Samarai.  She has been known to wrestle sharks and teach them a lesson.<br><br>
+
+                      She didn't invent the internet, but she knows how to kick it in the teeth.<br><br>
+
+                      Jeff Bezos named his first child after her.  He had a boy.<br><br>
+
+                      (Of note:  A more suitable bio may be palatable for some, if this is the case pass one along and we'll put it in.)
+                   </p>
+                  </div>
+
+                </div>  <!-- row -->
+              </div>  <!-- modal content wraps -->
+             </div>  <!-- end modal body -->
+           </div><!-- /.modal-content -->
+         </div><!-- /.modal-dialog -->
+       </div><!-- /.lauren modal -->
 
   <!-- javascript -->
   <script src="jquery.min.js"></script>

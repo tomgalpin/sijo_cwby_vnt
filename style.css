@@ -308,6 +308,18 @@ hr {
 
 #founders img:hover {
 	border-bottom: 8px solid #79bd9a;
+	cursor: pointer;
+
+}
+
+#extended_team img{
+	background:  #79bd9a;
+}
+
+#extended_team img:hover {
+	opacity: 0.6;
+	cursor: pointer;
+
 }
 
 body .modal-dialog {
@@ -345,6 +357,10 @@ body .modal-dialog {
 	position: absolute;
 	top: 0;
 	right: 8px;
+}
+
+#extended_team {
+	margin-bottom: 70px;
 }
 /*#founders {
 	border: 1px solid red;
