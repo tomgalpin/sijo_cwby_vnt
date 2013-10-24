@@ -148,12 +148,7 @@ img {
 	display: none;
 }
 
-
-
  /* ############ end index page ############ */
-
-
-
 
 /* ############ about page conent ############ */
 #about_firm {
@@ -211,7 +206,6 @@ img {
 #about_textslide p {
 	font-family: Source Sans Pro, sans-serif;
 	font-weight: none;
-
 }
 /* ############ end about page content ############ */
 
@@ -220,9 +214,7 @@ img {
 /*		border: 1px solid;*/
 		padding-bottom: 40px;
 	}
-/*	.col-md-2 {
-		border: 1px solid red;
-	}*/
+
 	.comp_img {
 		width: 100%;
 		margin-top: 15px;
@@ -232,10 +224,44 @@ img {
 	}
 /* ############ end companies page content ############ */
 
-
 /* ###########team page ###########*/
 
-.team {
+#team_top h2,
+#team_top p,
+#team_bottom h2,
+#team_bottom p {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#team_top p,
+#team_bottom p {
+	padding-bottom: 30px;
+}
+
+.aileen_noah {
+	text-align: left !important;
+}
+
+#tbottom_columns h4 {
+	text-align: center;
+}
+
+hr {
+	width: 70%;
+}
+
+#founders img:hover {
+	border-bottom: 8px solid #79bd9a;
+}
+/*#founders {
+	border: 1px solid red;
+}
+
+#aileen, #noah {
+	border: 1px solid;
+}*/
+/*.team {
     display: block;
     float: left;
     background-color: #fff;
@@ -243,7 +269,7 @@ img {
     -moz-box-shadow: 0 1px 3px rgba(3,3,3,.45);
     box-shadow: 0 1px 3px rgba(3,3,3,.45);
     border: solid 3px #fff;
-}
+}*/
 
 /* ########### end team page ########### */
 
