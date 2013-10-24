@@ -2,29 +2,29 @@
 
 @import url("//hello.myfonts.net/count/28bed4");
 
-  
+
 @font-face {
 	font-family: 'Intro-Bold';
 	src: url('webfonts/28BED4_0_0.eot');
 	src: url('webfonts/28BED4_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/28BED4_0_0.woff') format('woff'),url('webfonts/28BED4_0_0.ttf') format('truetype');
 
 }
- 
-  
+
+
 @font-face {
 	font-family: 'Intro-Book';
 	src: url('webfonts/28BED4_1_0.eot');
 	src: url('webfonts/28BED4_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/28BED4_1_0.woff') format('woff'),url('webfonts/28BED4_1_0.ttf') format('truetype');
 
 }
- 
-  
+
+
 @font-face {font-family: 'Intro-Thin';
 src: url('webfonts/28BED4_2_0.eot');
 src: url('webfonts/28BED4_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/28BED4_2_0.woff') format('woff'),url('webfonts/28BED4_2_0.ttf') format('truetype');
 
 }
- 
+
 
 /* ########## end fonts ############ */
 
@@ -293,12 +293,58 @@ img {
 	text-align: center;
 }
 
+.modal_read_more {
+	text-decoration: none;
+	color: #79bd9a;
+}
+
+.modal_read_more:hover {
+	color: #79bd9a;
+}
+
 hr {
 	width: 70%;
 }
 
 #founders img:hover {
 	border-bottom: 8px solid #79bd9a;
+}
+
+body .modal-dialog {
+	width: 70% !important; /* desired relative width */
+	left: 15% !important; /* (100%-width)/2 */
+	/* place center */
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.modal_image {
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.socialIcon {
+	float: left;
+	margin: 5px;
+}
+
+.fb_icon {
+	margin-left: 20%;
+}
+
+.modal_name {
+	text-align: left !important;
+}
+
+.modal_personal_info {
+	margin-right: 40px;
+	margin-bottom: 35px;
+}
+
+.close {
+	position: absolute;
+	top: 0;
+	right: 8px;
 }
 /*#founders {
 	border: 1px solid red;

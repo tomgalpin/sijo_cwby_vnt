@@ -45,7 +45,7 @@
 
           <div class="col-md-2">
             <a data-toggle="modal" data-target="#aileen_modal" >
-              <img src="images/investors/aileenProfile.png" class="team" id="investors">
+              <img src="images/investors/aileenProfile.png">
             </a>
           </div>
 
@@ -53,19 +53,21 @@
             <h4 class="aileen_noah">AILEEN LEE</h4>
             <p class="aileen_noah">
               Cowboy Ventures was founded by Aileen Lee in 2012.  Prior to Cowboy, Aileen had been a partner with the venture firm Kleiner Perkins Caufield &amp Byers (KPCB) <br>
-              <a data-toggle="modal" href="#aileen_modal">Read More...</a>
+              <a class="modal_read_more" data-toggle="modal" href="#aileen_modal">Read More...</a>
             </p>
           </div>
 
           <div class="col-md-2">
-            <img src="images/investors/noahProfile.png" class="team" id="investors">
+            <a data-toggle="modal" data-target="#noah_modal" >
+              <img src="images/investors/noahProfile.png">
+            </a>
           </div>
 
           <div class="col-md-2">
             <h4 class="aileen_noah">NOAH LICHTENSTEIN</h4>
             <p class="aileen_noah">
               Noah Lichtenstein is a Partner at Cowboy Ventures. Prior to joining Cowboy, Noah was a founding member of HomeRun, a leading social commerce platform <br>
-              <a href="noah.html"> Read More... </a>
+              <a class="modal_read_more" data-toggle="modal" href="#noah_modal">Read More...</a>
             </p>
           </div>
 
@@ -112,39 +114,45 @@
    <div class="modal fade" id="aileen_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
      <div class="modal-dialog">
        <div class="modal-content">
-         <div class="modal-header">
+
            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-           <h4 class="modal-title">Modal title</h4>
-         </div>
-         <div class="modal-body">
 
-            <img src="images/aileenProfile.png" style = "margin: 0 auto;">
-            <h2 class = "centered"> AILEEN LEE </h2>
-            <h3 class = "centered"> Founder </h3>
 
-            <div class = "socialIcon">
-              <a href = "https://www.facebook.com/aileenwlee" target = "_blank"> <img src = "images/facebookIcon.png" style = "width: 50px; height: 50px;"> </a>
-            </div>
+         <div class="modal-body">  <!--begin modal body -->
 
-            <div class = "socialIcon">
-              <a href = "http://www.twitter.com/alee" target = "_blank"> <img src = "images/twitterIcon.png" style = "width: 50px; height: 50px;"> </a>
-            </div>
+          <div class="modal_content_wraps">
+            <div class="row">
 
-            <div class = "socialIcon">
-              <a href = "http://www.linkedin.com/in/aileenwlee" target = "_blank"> <img src = "images/linkedinIcon.png" style = "width: 50px; height: 50px;"> </a>
-            </div>
+              <div class="col-md-4">
+                <img class="modal_image" src="images/investors/aileenProfile.png">
+                <div class="socialIcon fb_icon">
+                  <a href="https://www.facebook.com/aileenwlee" target="_blank"> <img src="images/facebookIcon.png"> </a>
+                </div>
 
-           <p class = "lineSpacing" style = "padding-top: 0; padding-right: 30%;"> Cowboy Ventures was founded by Aileen Lee in 2012.  Prior to Cowboy, Aileen had been a partner with the venture firm Kleiner Perkins Caufield &amp Byers (KPCB) since 1999.<br><br>
+                <div class="socialIcon">
+                  <a href="http://www.twitter.com/alee" target="_blank"> <img src="images/twitterIcon.png"> </a>
+                </div>
 
-           She has been lead or supporting partner in backing a broad variety of companies including Bloom Energy, Blue Nile, Callaway Digital Arts, Good Technology, One Kings Lane, Plum District, Rent the Runway, Shopkick, Tellme, and Trendyol.  She was also founding CEO of RMG Networks, the leading digital out-of-home media company, backed by KPCB.<br><br>
+                <div class="socialIcon">
+                  <a href="http://www.linkedin.com/in/aileenwlee" target="_blank"> <img src="images/linkedinIcon.png"> </a>
+                </div>
 
-           Prior to joining KPCB, Aileen held roles at Gap Inc., The North Face, Odwalla, and Morgan Stanley.  She has degrees from MIT, Harvard Business School, and Millburn High School. </p>
+              </div>
 
-         </div>
-         <div class="modal-footer">
-           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-           <button type="button" class="btn btn-primary">Save changes</button>
-         </div>
+              <div class="col-md-8">
+                 <h3 class="modal_name"> AILEEN LEE </h3>
+                 <h4> Founder </h4>
+
+                <p class="modal_personal_info"> Cowboy Ventures was founded by Aileen Lee in 2012.  Prior to Cowboy, Aileen had been a partner with the venture firm Kleiner Perkins Caufield &amp Byers (KPCB) since 1999.<br><br>
+
+                She has been lead or supporting partner in backing a broad variety of companies including Bloom Energy, Blue Nile, Callaway Digital Arts, Good Technology, One Kings Lane, Plum District, Rent the Runway, Shopkick, Tellme, and Trendyol.  She was also founding CEO of RMG Networks, the leading digital out-of-home media company, backed by KPCB.<br><br>
+
+                Prior to joining KPCB, Aileen held roles at Gap Inc., The North Face, Odwalla, and Morgan Stanley.  She has degrees from MIT, Harvard Business School, and Millburn High School. </p>
+              </div>
+
+            </div>  <!-- row -->
+          </div>  <!-- modal content wraps -->
+         </div>  <!-- end modal body -->
        </div><!-- /.modal-content -->
      </div><!-- /.modal-dialog -->
    </div><!-- /.aileen modal -->
@@ -153,17 +161,47 @@
     <div class="modal fade" id="noah_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-header">
+
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 class="modal-title">Modal title</h4>
-          </div>
-          <div class="modal-body">
-            ...
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
+
+
+          <div class="modal-body">  <!--begin modal body -->
+
+           <div class="modal_content_wraps">
+             <div class="row">
+
+               <div class="col-md-4">
+                 <img class="modal_image" src="images/investors/noahProfile.png">
+                 <div class="socialIcon fb_icon">
+                   <a href="https://www.facebook.com/aileenwlee" target="_blank"> <img src="images/facebookIcon.png"> </a>
+                 </div>
+
+                 <div class="socialIcon">
+                   <a href="http://www.twitter.com/alee" target="_blank"> <img src="images/twitterIcon.png"> </a>
+                 </div>
+
+                 <div class="socialIcon">
+                   <a href="http://www.linkedin.com/in/aileenwlee" target="_blank"> <img src="images/linkedinIcon.png"> </a>
+                 </div>
+
+               </div>
+
+               <div class="col-md-8">
+                  <h3 class="modal_name">NOAH LICHTENSTEIN</h3>
+                  <h4> Founder </h4>
+
+                 <p class="modal_personal_info">
+                  Noah Lichtenstein is a Partner at Cowboy Ventures. <br>
+
+                  Prior to joining Cowboy, Noah was a founding member of HomeRun, a leading social commerce platform that reached over 100 million consumers at its peak (acquired in 2011 by Rearden Commerce). In that role, Noah built and managed the company's original sales team, led strategic partnerships with AT&T, Google, Facebook, and Amazon, and helped develop the company's B2B commerce platform, OfferEngine. <br><br>
+
+                  Before HomeRun, Noah led consumer Business Development efforts at WeatherBill (n/k/a the Climate Corporation) and was the Co-Founder & President of Annuvia. He attended Stanford University and currently serves on the Board of Directors for the United Way of the Bay Area.
+                </p>
+               </div>
+
+             </div>  <!-- row -->
+           </div>  <!-- modal content wraps -->
+          </div>  <!-- end modal body -->
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /.noah modal -->
