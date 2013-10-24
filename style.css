@@ -171,7 +171,6 @@ img {
 		}
 }
 
-
  /*############ end navbar ############*/
 
  /* ############ index page ############ */
@@ -180,10 +179,6 @@ img {
 	padding-bottom: 20px;
 	background: #e4eded;
 }
-
-/*#social_media_stream {
-	height: 700px;
-}*/
 
 #tintFeed {
 	height: 200px;
@@ -362,24 +357,55 @@ body .modal-dialog {
 #extended_team {
 	margin-bottom: 70px;
 }
-/*#founders {
-	border: 1px solid red;
-}
-
-#aileen, #noah {
-	border: 1px solid;
-}*/
-/*.team {
-    display: block;
-    float: left;
-    background-color: #fff;
-    -webkit-box-shadow: 0 1px 3px rgba(3,3,3,.45);
-    -moz-box-shadow: 0 1px 3px rgba(3,3,3,.45);
-    box-shadow: 0 1px 3px rgba(3,3,3,.45);
-    border: solid 3px #fff;
-}*/
 
 /* ########### end team page ########### */
+
+/* ########### begin entrepreneurs page ########### */
+
+#entr_top p {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.entr_images img{
+	width: 200px;
+}
+
+.entr_images {
+	margin-bottom: 20px;
+}
+
+.titleBox {
+	width: 200px;
+	height: 50px;
+	background-color: black;
+	opacity: 0.8;
+	margin-top: -50px;
+}
+
+.titleBox p {
+	color: #ffffff;
+	text-align: center;
+	font-size: 13px;
+	font-family: 'Intro-Book', sans-serif !important;
+	padding-top: 15px;
+}
+
+#michaelTitle {
+	font-family: 'Intro-Book', sans-serif !important;
+	font-size: 12px;
+}
+#michaelTitle p {
+	padding-top: 8px;
+}
+
+.hiddenQuote {
+	background: red !important;
+	margin-top: -200px !important;
+}
+
+
+/* ########### end entrepreneurs page ########### */
 
 /* ########### blog page ########### */
 
@@ -392,49 +418,5 @@ iframe {
 
 }
 /* ########### end blog page ########### */
-/*body {
-}
 
-p {
-	font-family: 'Source Sans Pro', sans-serif;
-}
-
-img {
-	display: block;
-}
-
-ul {
-	list-style-type: none;
-	margin-top: 10px;
-	position: relative;
-	left: 17%;
-	padding: 0;
-}
-
-li {
-	display: inline;
-	float: left;
-	font-family: 'Source Sans Pro', sans-serif;
-	margin-left: 0.5%;
-	margin-right: 0.5%;
-	width: 10%;
-	text-align: center;
-}
-
-h1, h2, h3 {
-	font-family: 'Source Sans Pro', sans-serif;
-}
-
-a {
-	text-decoration: none;
-	color: black;
-}
-
-
-
-hr {
-	border-top: 1px solid #ccc;
-	width: 100%;
-	margin-bottom: 25px;
-}*/
 
