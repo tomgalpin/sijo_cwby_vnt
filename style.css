@@ -41,8 +41,13 @@ p {
 h2 {
 	text-align: center;
 	font-family: 'Intro-Thin', Helvetica, Arial, sans-serif !important;
-	font-weight: 200;
-	font-size: 35px;
+	font-size: 40px;
+}
+
+h3 {
+	font-family: 'Intro-Bold', sans-serif !important;
+	font-size: 20px;
+	color: #444;
 }
 
 img {
@@ -172,6 +177,8 @@ img {
  /* ############ index page ############ */
 #car_outer_wrapper {
 	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #e4eded;
 }
 
 /*#social_media_stream {
@@ -219,7 +226,7 @@ img {
 }
 
 .quote_image {
-	width: 110px;
+	width: 105px;
 	height: 200px;
 	background-image: url('Images/quotes.png');
 	background-repeat: no-repeat;
@@ -241,12 +248,11 @@ img {
 #about_textslide {
 	padding: 10px 16.5%;
 	text-align: center;
-	color: white;
+	color: #fff;
 	height: 100px;
 	z-index: 2;
 	font-family: 'Intro-Thin', sans-serif !important;
-	font-weight: 200;
-
+	font-size: 18px;
 }
 #about_textslide p {
 
