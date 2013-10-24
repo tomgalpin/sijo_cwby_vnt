@@ -1,9 +1,53 @@
+/* ########## fonts ############ */
+
+@import url("//hello.myfonts.net/count/28bed4");
+
+  
+@font-face {
+	font-family: 'Intro-Bold';
+	src: url('webfonts/28BED4_0_0.eot');
+	src: url('webfonts/28BED4_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/28BED4_0_0.woff') format('woff'),url('webfonts/28BED4_0_0.ttf') format('truetype');
+
+}
+ 
+  
+@font-face {
+	font-family: 'Intro-Book';
+	src: url('webfonts/28BED4_1_0.eot');
+	src: url('webfonts/28BED4_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/28BED4_1_0.woff') format('woff'),url('webfonts/28BED4_1_0.ttf') format('truetype');
+
+}
+ 
+  
+@font-face {font-family: 'Intro-Thin';
+src: url('webfonts/28BED4_2_0.eot');
+src: url('webfonts/28BED4_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/28BED4_2_0.woff') format('woff'),url('webfonts/28BED4_2_0.ttf') format('truetype');
+
+}
+ 
+
+/* ########## end fonts ############ */
+
+
 .contents {
 	overflow: scroll;
 }
 
+p {
+
+	font-family: 'Intro-Book', sans-serif !important;
+}
+
 h2 {
 	text-align: center;
+	font-family: 'Intro-Thin', Helvetica, Arial, sans-serif !important;
+	font-size: 40px;
+}
+
+h3 {
+	font-family: 'Intro-Bold', sans-serif !important;
+	font-size: 20px;
+	color: #444;
 }
 
 img {
@@ -20,7 +64,7 @@ img {
 	z-index: 100;
 }
 #sticky_navbar {
-	border-bottom: 2px solid #B2B2B2;
+	border-bottom: 1px solid #ddd;
 }
 #sticky_navbar.affix {
 	position: fixed;
@@ -33,6 +77,7 @@ img {
 
 #navigation a {
 	text-decoration: none;
+	font-family: "Intro-Bold",Helvetica,Arial,sans-serif !important;
 }
 
 #logo {
@@ -69,7 +114,7 @@ img {
 	padding-bottom: 6px;
 	font-weight: bold;
 	text-decoration: none;
-	color: black;
+	color: #444;
 }
 
 #the_navbar span:hover,
@@ -131,7 +176,9 @@ img {
 
  /* ############ index page ############ */
 #car_outer_wrapper {
-	padding-top: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #e4eded;
 }
 
 /*#social_media_stream {
@@ -174,8 +221,7 @@ img {
 }
 
 .quote_image {
-	border: 1px solid;
-	width: 110px;
+	width: 105px;
 	height: 200px;
 	background-image: url('Images/quotes.png');
 	background-repeat: no-repeat;
@@ -196,16 +242,15 @@ img {
 
 #about_textslide {
 	padding: 10px 16.5%;
-	color: white;
 	text-align: center;
-	border: 1px solid;
-	color: black;
+	color: #fff;
 	height: 100px;
 	z-index: 2;
+	font-family: 'Intro-Thin', sans-serif !important;
+	font-size: 18px;
 }
 #about_textslide p {
-	font-family: Source Sans Pro, sans-serif;
-	font-weight: none;
+
 }
 /* ############ end about page content ############ */
 
@@ -218,9 +263,10 @@ img {
 	.comp_img {
 		width: 100%;
 		margin-top: 15px;
-		-webkit-box-shadow: 0 1px 3px rgba(3,3,3,.45);
-		-moz-box-shadow: 0 1px 3px rgba(3,3,3,.45);
-		box-shadow: 0 1px 3px rgba(3,3,3,.45);
+		-webkit-box-shadow: 0 1px 2px rgba(3,3,3,.25);
+		-moz-box-shadow: 0 1px 2px rgba(3,3,3,.25);
+		box-shadow: 0 1px 2px rgba(3,3,3,.25);
+
 	}
 /* ############ end companies page content ############ */
 
