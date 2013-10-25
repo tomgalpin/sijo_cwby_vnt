@@ -70,9 +70,10 @@ img {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	border-bottom: 2px solid #B2B2B2;
+	border-bottom: 1px solid #B2B2B2;
 	background: #ffffff;
 	z-index: 200;
+	opacity: .95;
 }
 
 #navigation a {
@@ -302,7 +303,7 @@ hr {
 }
 
 #founders img:hover {
-	border-bottom: 8px solid #79bd9a;
+	opacity: 0.6;
 	cursor: pointer;
 
 }
@@ -358,6 +359,15 @@ body .modal-dialog {
 	margin-bottom: 70px;
 }
 
+.team {
+
+	background-color: #868686;
+	-webkit-box-shadow: 0 1px 3px rgba(3,3,3,.45);
+	-moz-box-shadow: 0 1px 3px rgba(3,3,3,.45);
+	box-shadow: 0 1px 3px rgba(3,3,3,.45);
+	border: solid 3px #fff;
+}
+
 /* ########### end team page ########### */
 
 /* ########### begin entrepreneurs page ########### */
@@ -378,13 +388,13 @@ body .modal-dialog {
 .titleBox {
 	width: 200px;
 	height: 50px;
-	background-color: black;
-	opacity: 0.8;
+	background-color: white;
+	opacity: 0.85;
 	margin-top: -50px;
 }
 
 .titleBox p {
-	color: #ffffff;
+	color: #444;
 	text-align: center;
 	font-size: 13px;
 	font-family: 'Intro-Book', sans-serif !important;
