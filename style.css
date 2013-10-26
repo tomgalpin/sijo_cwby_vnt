@@ -396,17 +396,19 @@ body .modal-dialog {
 	cursor: pointer;
 }
 
+
 .entr_images:hover .title_wrap {
-	top: 0;
+	top: -25%;
 }
 
 .title_wrap {
 	position: absolute;
 	display: block;
-	top: 140px;
+	top: 73%;
 	left: 0;
-	height: 400px;
+	height: 400%;
 	-webkit-transition: top 0.3s ease;
+	-moz-transition: top 0.3s ease;
 	transition: top 0.3s ease;
 	background-color: white;
 	opacity: 0.85;
@@ -420,11 +422,18 @@ body .modal-dialog {
 	padding-top: 15px;
 }
 
-#michaelTitle {
+#michaelTitle,
+#michaelQuote,
+#jeremyTitle {
 	font-family: 'Intro-Book', sans-serif !important;
-	font-size: 12px;
+	font-size: 12px !important;
 }
-#michaelTitle p {
+#michaelTitle p,
+#jeremyTitle  p,
+#jasonTitle p,
+#melodyTitle p,
+#lukeTitle p,
+#fredTitle p {
 	padding-top: 8px;
 }
 
@@ -434,9 +443,43 @@ body .modal-dialog {
 
 .hiddenQuote {
 	margin: 15px;
+	margin-top: 40px;
 }
 
+#michaelQuote,
+#joeQuote,
+#jeffPQuote,
+#idoQuote {
+	margin-top: 20px;
+}
 
+@media only screen and (max-width: 1220px) {
+	.title_wrap {
+		top: 75%;
+	}
+}
+
+@media only screen and (max-width: 1120px) {
+	.entr_images:hover .title_wrap {
+		top: -40%;
+	}
+	.title_wrap {
+		top: 72%;
+	}
+	.hiddenQuote,
+	.titleBox {
+		font-size: 11px !important;
+	}
+	#idoQuote {
+		font-size: 10px !important;
+		margin-top: 30px;
+	}
+	#jeffPQuote,
+	#joeQuote,
+	#michaelQuote {
+		margin-top: 30px;
+	}
+}
 
 
 /* ########### end entrepreneurs page ########### */
