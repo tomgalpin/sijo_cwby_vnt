@@ -59,8 +59,6 @@ img {
 #navigation {
 	background-color: #ffffff;
 	width: 100%;
-
-
 	z-index: 100;
 }
 #sticky_navbar {
@@ -515,7 +513,6 @@ body .modal-dialog {
 	}
 }
 
-
 /* ########### end entrepreneurs page ########### */
 
 /* ########### blog page ########### */
@@ -529,5 +526,51 @@ iframe {
 	border-top: none;
 }
 /* ########### end blog page ########### */
+
+/* ########### contact page ########### */
+
+#contact_content {
+	width: 80%;
+	margin: 20px auto;
+}
+
+#contact_content p {
+	text-align: center;
+	line-height: 1.5;
+	padding-bottom: 5px;
+}
+
+#contact_socials {
+	width: 150px;
+	height: 40px;
+	margin: 10px auto;
+}
+
+#contact_socials .socialIcon {
+	width: 40px;
+}
+
+#email_link {
+	border: 1px solid #4ac7e3;
+	background-color: #4ac7e3;
+	margin: 10px auto;
+	height: 50px;
+	width: 100px;
+}
+
+#email_link a {
+	text-decoration: none;
+}
+
+#email_link p {
+	font-family: 'Intro-Book', sans-serif !important;
+	font-size: 15px;
+	margin: 15px auto;
+	color: white;
+}
+
+#email_link:hover {
+	opacity: 0.8;
+}
 
 
