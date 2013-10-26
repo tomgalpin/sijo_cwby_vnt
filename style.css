@@ -377,20 +377,39 @@ body .modal-dialog {
 	margin-bottom: 20px;
 }
 
-.entr_images img{
-	width: 200px;
+.entr_bottom {
+	margin-bottom: 80px;
 }
 
 .entr_images {
 	margin-bottom: 20px;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
 }
 
-.titleBox {
-	width: 200px;
-	height: 50px;
+.entr_images img{
+	width: 100%;
+}
+
+.entr_images:hover {
+	cursor: pointer;
+}
+
+.entr_images:hover .title_wrap {
+	top: 0;
+}
+
+.title_wrap {
+	position: absolute;
+	display: block;
+	top: 140px;
+	left: 0;
+	height: 400px;
+	-webkit-transition: top 0.3s ease;
+	transition: top 0.3s ease;
 	background-color: white;
 	opacity: 0.85;
-	margin-top: -50px;
 }
 
 .titleBox p {
@@ -407,6 +426,14 @@ body .modal-dialog {
 }
 #michaelTitle p {
 	padding-top: 8px;
+}
+
+#idoQuote {
+	font-size: 11px;
+}
+
+.hiddenQuote {
+	margin: 15px;
 }
 
 
