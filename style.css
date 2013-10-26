@@ -251,19 +251,53 @@ img {
 /* ############ end about page content ############ */
 
 /* ############ companies page content ############ */
-	#company_columns {
-/*		border: 1px solid;*/
-		padding-bottom: 40px;
-	}
+#company_columns {
+	padding-bottom: 80px;
+}
 
-	.comp_img {
-		width: 100%;
-		margin-top: 15px;
-		-webkit-box-shadow: 0 1px 2px rgba(3,3,3,.25);
-		-moz-box-shadow: 0 1px 2px rgba(3,3,3,.25);
-		box-shadow: 0 1px 2px rgba(3,3,3,.25);
+.comp_wrap {
+	position: relative;
+}
 
-	}
+
+.comp_img img {
+	width: 100%;
+	margin-top: 15px;
+}
+
+.comp_img,
+.comp_blurb {
+	-webkit-box-shadow: 0 1px 2px rgba(3,3,3,.25);
+	-moz-box-shadow: 0 1px 2px rgba(3,3,3,.25);
+	box-shadow: 0 1px 2px rgba(3,3,3,.25);
+}
+.comp_blurb {
+	display: none;
+}
+
+.comp_blurb p {
+	font-family: 'Intro-Book', sans-serif !important;
+	font-size: 15px !important;
+	text-align: center;
+	margin: 20px auto;
+	text-decoration: none;
+	color: black;
+}
+
+.comp_wrap:hover > .comp_img {
+	visibility: hidden;
+}
+
+.comp_wrap:hover > .comp_blurb {
+	position: absolute;
+	display: block;
+	background-color: gray;
+	opacity: 0.5;
+	top: -5px;
+	left: -5px;
+	width: 105%;
+	height: 110%;
+}
 /* ############ end companies page content ############ */
 
 /* ###########team page ###########*/
