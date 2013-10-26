@@ -526,7 +526,7 @@ iframe {
 	height: 700px;
 	position: relative;
 	right: 3%;
-
+	border-top: none;
 }
 /* ########### end blog page ########### */
 
