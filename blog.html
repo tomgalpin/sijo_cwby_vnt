@@ -13,12 +13,26 @@
 	</head>
 
   <body>
+    <!--randomly display an image on page load-->
+    <script language="JavaScript">
+      function random_imglink(){
+        var myimages=new Array()
+        myimages[1]="images/logos/elephant.png"
+        myimages[2]="images/logos/fish.png"
+        myimages[3]="images/logos/quail.png"
+        myimages[3]="images/logos/zebra.png"
+        var ry=Math.floor(Math.random()*myimages.length)
+        if (ry==0)
+           ry=1
+           document.write('<a href="index.html"><img id="logo" src="'+myimages[ry]+'" border=0></a> ')
+      }
+        random_imglink()
+    </script>
 
     <!-- navbar -->
     <!-- do not change these id's to 'nav' or 'navbar' this will conflict with twitter bootstrap's naming conventions -->
     <div id="nav_wrapper">
     	<div id="navigation">
-    		<a href="index.html"> <img id="logo" src="images/cowboyLogo.png"> </a>
     		<a href="index.html"> <img id="text" src="images/cowboyText.png"> </a>
     		<div id="sticky_navbar">
     			<ul id="the_navbar">
@@ -26,7 +40,7 @@
     				<li> <a href="team.html"><span>TEAM</span></a> </li>
     				<li> <a href="entrepreneurs.html"><span>ENTREPRENEURS</span></a></li>
     				<li> <a href="companies.html"><span>COMPANIES</span></a> </li>
-    				<li> <a href="#"><span class="active">BLOG</span></a> </li>
+    				<li> <a href="blog.html"><span class="active">BLOG</span></a> </li>
     				<li> <a href="contact.html"><span>CONTACT</span></a> </li>
     			</ul>
     		</div> <!-- sticky navbar -->
