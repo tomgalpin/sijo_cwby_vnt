@@ -278,12 +278,12 @@ img {
 	margin-top: 15px;
 }
 
-.comp_img,
+/*.comp_img,
 .comp_blurb {
 	-webkit-box-shadow: 0 0px 1px rgba(3,3,3,.25);
 	-moz-box-shadow: 0 0px 1px rgba(3,3,3,.25);
 	box-shadow: 0px 0px 1px rgba(3,3,3,.25);
-}
+}*/
 .comp_blurb {
 	display: none;
 }
@@ -305,11 +305,27 @@ img {
 	position: absolute;
 	display: block;
 	background-color: white;
-	opacity: 0.5;
-	top: -5px;
-	left: -5px;
-	width: 105%;
-	height: 110%;
+	top: -50px;
+	left: -50px;
+	width: 160%;
+	height: 250%;
+	z-index: 100;
+	-webkit-box-shadow: 1px 12px 21px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    1px 12px 21px rgba(50, 50, 50, 0.75);
+	box-shadow:         1px 12px 21px rgba(50, 50, 50, 0.75);
+}
+
+.comp_wrap:hover > .comp_blurb.bottom_blurb {
+	top: -130px;
+}
+
+.comp_blurb img {
+	width: 75%;
+	border-bottom: 1px solid gray;
+}
+.comp_blurb p {
+	font-size: 14px !important;
+	margin: 15px 10px 10px 10px;
 }
 /* ############ end companies page content ############ */
 
