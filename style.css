@@ -36,6 +36,7 @@ src: url('webfonts/28BED4_2_0.eot?#iefix') format('embedded-opentype'),url('webf
 p {
 
 	font-family: 'Intro-Book', sans-serif !important;
+	font-size: 15px;
 }
 
 h2 {
