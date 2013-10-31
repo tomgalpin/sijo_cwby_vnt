@@ -302,6 +302,11 @@ img {
 }
 
 .comp_wrap:hover > .comp_blurb {
+/*	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	transition: all 2s ease;*/
+
 	position: absolute;
 	display: block;
 	background-color: white;
@@ -313,6 +318,10 @@ img {
 	-webkit-box-shadow: 1px 12px 21px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow:    1px 12px 21px rgba(50, 50, 50, 0.75);
 	box-shadow:         1px 12px 21px rgba(50, 50, 50, 0.75);
+	/*-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;*/
 }
 
 .comp_wrap:hover > .comp_blurb.bottom_blurb {
@@ -414,10 +423,8 @@ body .modal-dialog {
 	margin-bottom: 35px;
 }
 
-.close {
-	position: absolute;
-	top: 0;
-	right: 8px;
+.modal-header {
+	border-bottom: none;
 }
 
 #extended_team {
