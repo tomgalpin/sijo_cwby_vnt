@@ -464,9 +464,9 @@ body .modal-dialog {
 	width: 100%;
 }
 
-.entr_images:hover {
+/*.entr_images:hover {
 	cursor: pointer;
-}
+}*/
 
 
 .entr_images:hover .title_wrap {
