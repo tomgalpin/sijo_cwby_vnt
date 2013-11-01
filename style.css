@@ -309,11 +309,6 @@ img {
 }
 
 .comp_wrap:hover > .comp_blurb {
-/*	-webkit-transition: all 2s ease;
-	-moz-transition: all 2s ease;
-	-o-transition: all 2s ease;
-	transition: all 2s ease;*/
-
 	position: absolute;
 	display: block;
 	background-color: white;
@@ -325,10 +320,6 @@ img {
 	-webkit-box-shadow: 1px 12px 21px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow:    1px 12px 21px rgba(50, 50, 50, 0.75);
 	box-shadow:         1px 12px 21px rgba(50, 50, 50, 0.75);
-	/*-webkit-transition: all 1s ease-in-out;
-	-moz-transition: all 1s ease-in-out;
-	-o-transition: all 1s ease-in-out;
-	transition: all 1s ease-in-out;*/
 }
 
 .comp_wrap:hover > .comp_blurb.bottom_blurb {
@@ -360,6 +351,10 @@ img {
 	padding-bottom: 30px;
 }
 
+#team_top img,
+#team_bottom img {
+	width: 100%;
+}
 .aileen_noah {
 	text-align: left !important;
 }
@@ -381,23 +376,28 @@ hr {
 	width: 70%;
 }
 
-#founders img:hover {
+#founders img:hover,
+#extended_team img:hover {
 	opacity: 0.8;
 	cursor: pointer;
-	border-bottom: 6px solid #79bd9a;
+	/*border-bottom: 6px solid #79bd9a;*/
+}
 
+.green {
+	visibility: hidden;
+	height: 6px;
+	background-color: #79bd9a;
+	width: 100%;
+}
+.ninja:hover > .green {
+	visibility: visible;
 }
 
 #extended_team img{
 	background:  #79bd9a;
 }
 
-#extended_team img:hover {
-	opacity: 0.8;
-	cursor: pointer;
-	border-bottom: 6px solid #79bd9a;
 
-}
 
 body .modal-dialog {
 	width: 70% !important; /* desired relative width */
@@ -471,9 +471,9 @@ body .modal-dialog {
 	width: 100%;
 }
 
-.entr_images:hover {
+/*.entr_images:hover {
 	cursor: pointer;
-}
+}*/
 
 
 .entr_images:hover .title_wrap {
@@ -566,12 +566,13 @@ body .modal-dialog {
 
 /*these need to be tweaked*/
 iframe {
-	width: 110%;
+	width: 100%;
 	height: 700px;
 	position: relative;
-	right: 3%;
 	border-top: none;
 }
+
+
 /* ########### end blog page ########### */
 
 /* ########### contact page ########### */
