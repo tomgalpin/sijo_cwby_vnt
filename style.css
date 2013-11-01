@@ -42,7 +42,7 @@ p {
 h2 {
 	text-align: center;
 	font-family: 'Intro-Thin', Helvetica, Arial, sans-serif !important;
-	font-size: 35px;
+	font-size: 30px;
 }
 
 h3 {
@@ -239,6 +239,7 @@ img {
 	top: 75%;
 	z-index: 1;
 }
+
 #quote1 {
 	left: 14%;
 	background-position: 2px 35px;
@@ -255,11 +256,17 @@ img {
 	color: #666;
 	height: 100px;
 	z-index: 2;
-	font-family: 'Intro-Thin', sans-serif !important;
+	font-family: 'Intro-Book', sans-serif !important;
 	font-size: 18px;
 }
 #about_textslide p {
 
+}
+
+.names {
+	font-weight: bold;
+	text-align: right !important;
+	color: #4ac7e3;
 }
 /* ############ end about page content ############ */
 
